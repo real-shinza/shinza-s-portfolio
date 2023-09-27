@@ -1,0 +1,35 @@
+import './biography.css'
+import Peop from './biography_prop'
+
+function Biography() {
+  return (
+    <div className="biography card">
+      <h1 className="biography-title">
+        略歴
+      </h1>
+      <Peop
+        className="educational-background"
+        title="学歴"
+        biographies={[
+          { date: "2019年3月", description: "石川県内の公立高等学校 卒業" },
+          { date: "2019年4月", description: "京都府内の専門学校 ゲームプログラマー専攻 入学" },
+          { date: "2021年3月", description: "京都府内の専門学校 ゲームプログラマー専攻 卒業" },
+          { date: "2022年4月", description: "東京都内の通信制大学 情報系学部 入学" },
+          { date: "現在", description: "東京都内の通信制大学 情報系学部 二年次在学中" },
+        ]}
+      />
+      <Peop
+        className="work-history"
+        title="職歴"
+        biographies={[
+          { date: "2021年4月", description: "某SES会社 入社" },
+          { date: "2021年6月", description: "業務用アプリの結合テストのテストシナリオ作成業務" },
+          { date: "2021年11月", description: "業務用アプリの結合テストのテスター業務" },
+          { date: "現在", description: "某SES会社 在籍中" },
+        ]}
+      />
+    </div>
+  )
+}
+
+export default Biography;

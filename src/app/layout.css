@@ -1,0 +1,13 @@
+html {
+  margin: auto;
+  background-color: #eceff0;
+}
+
+.card {
+  margin: 90px auto;
+  padding: 10px;
+  width: min(75%, 1200px);
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,15 @@
+.license-title {
+  font-size: 45px;
+  color: #3d3d3d;
+}
+
+.license-prop {
+  margin: 20px;
+  border: 2px solid #aaaaaa;
+  border-radius: 10px;
+  width: min(80%, 720px);
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #5e5e5e;
+}

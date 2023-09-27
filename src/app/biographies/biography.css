@@ -1,0 +1,26 @@
+.biography-title {
+  font-size: 45px;
+  color: #3d3d3d;
+}
+
+.biography .prop {
+  margin: 20px;
+  border: 2px solid #aaaaaa;
+  border-radius: 10px;
+  padding: 5px;
+  width: min(80%, 520px);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.biography .title {
+  margin-top: 5px;
+  font-size: 25px;
+  color: #3d3d3d;
+}
+
+.biography .table {
+  text-align: left;
+  font-size: 17px;
+  color: #5e5e5e;
+}

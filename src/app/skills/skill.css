@@ -1,0 +1,26 @@
+.skill-title {
+  font-size: 45px;
+  color: #3d3d3d;
+}
+
+.skill .prop {
+  margin: 20px;
+  border: 2px solid #aaaaaa;
+  border-radius: 10px;
+  padding: 5px;
+  width: min(80%, 270px);
+  display: inline-block;  
+  vertical-align: top;
+}
+
+.skill .title {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #3d3d3d;
+}
+
+.skill .content {
+  font-size: 20px;
+  font-weight: 600;
+  color: #5e5e5e;
+}
