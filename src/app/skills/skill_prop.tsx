@@ -15,12 +15,14 @@ function SkillProp(prop: SkillInfo) {
         {prop.title}
       </h3>
       <div className={contentClassName}>
-        {prop.skills.map((skill) => (
-          <div>{skill}</div>
+        {prop.skills.map((skill, index) => (
+          <div key={index}>
+            {skill}
+          </div>
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 export default SkillProp;

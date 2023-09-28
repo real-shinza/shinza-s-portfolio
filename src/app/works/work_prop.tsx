@@ -35,7 +35,7 @@ function WorkProp(prop: WorkInfo) {
         </div>
       </Link>
     </div>
-  )
+  );
 }
 
 export default WorkProp;

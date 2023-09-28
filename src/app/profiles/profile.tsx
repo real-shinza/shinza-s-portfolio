@@ -24,8 +24,9 @@ function Profile() {
             かいなり（Kainari）
           </div>
           <div className="profile-description">
+            <p>2000年生まれ。</p>
             <p>石川県野々市市出身ですが、よくお隣の金沢市出身と偽っています。</p>
-            <p>現在はIT企業で働きながら通信制大学に通っています。</p>
+            <p>現在は社会人をしながら通信制大学に通っています。</p>
             <p>自作ゲームを完成させることが目標です。</p>
           </div>
           <div className="profile-sns">
@@ -57,7 +58,7 @@ function Profile() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Profile;

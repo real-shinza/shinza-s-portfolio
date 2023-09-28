@@ -17,7 +17,7 @@ function License() {
         ]}
       />
     </div>
-  )
+  );
 }
 
 export default License;

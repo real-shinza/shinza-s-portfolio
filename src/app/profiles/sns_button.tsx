@@ -21,7 +21,7 @@ function SnsButton(sns: Sns) {
         height={sns.size}
       />
     </Link>
-  )
+  );
 }
 
 export default SnsButton;

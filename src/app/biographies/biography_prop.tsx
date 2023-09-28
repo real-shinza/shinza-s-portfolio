@@ -16,8 +16,8 @@ function BiographyPeop(prop: BiographyInfo) {
       </h3>
       <table className={tableClassName}>
         <tbody>
-          {prop.biographies.map((biography) => (
-            <tr>
+          {prop.biographies.map((biography, index) => (
+            <tr key={index}>
               <td className="date">{biography.date}</td>
               <td className="description">{biography.description}</td>
             </tr>
@@ -25,7 +25,7 @@ function BiographyPeop(prop: BiographyInfo) {
         </tbody>
       </table>
     </div>
-  )
+  );
 }
 
 export default BiographyPeop;

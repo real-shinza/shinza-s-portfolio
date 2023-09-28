@@ -50,7 +50,7 @@ function Skill() {
         ]}
       />
     </div>
-  )
+  );
 }
 
 export default Skill;

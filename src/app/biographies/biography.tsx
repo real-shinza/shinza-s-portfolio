@@ -29,7 +29,7 @@ function Biography() {
         ]}
       />
     </div>
-  )
+  );
 }
 
 export default Biography;

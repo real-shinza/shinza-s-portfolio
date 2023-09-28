@@ -8,11 +8,13 @@ function LicenseProp(prop: LicenseInfo) {
 
   return (
     <div className={propClassName}>
-      {prop.licenses.map((license) => (
-        <div>{license}</div>
+      {prop.licenses.map((license, index) => (
+        <div key={index}>
+          {license}
+        </div>
       ))}
     </div>
-  )
+  );
 }
 
 export default LicenseProp;

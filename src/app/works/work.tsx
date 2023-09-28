@@ -22,7 +22,7 @@ function Work() {
         description="数字を文字に変換するサイト。HTML、CSS、JavaScriptのみで作成。"
       />
     </div>
-  )
+  );
 }
 
 export default Work;
