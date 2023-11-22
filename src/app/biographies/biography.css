@@ -20,7 +20,13 @@
 }
 
 .biography .table {
+  margin: auto;
   text-align: left;
   font-size: 17px;
+  font-weight: 400;
   color: #5e5e5e;
+}
+
+.biography .table td {
+  padding: 0px 5px;
 }
