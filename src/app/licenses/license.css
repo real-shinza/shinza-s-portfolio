@@ -8,7 +8,7 @@
   margin: 20px;
   border: 2px solid #aaaaaa;
   border-radius: 10px;
-  width: min(80%, 670px);
+  width: min(80%, 650px);
   display: inline-block;
   font-size: 19px;
   font-weight: 400;
@@ -16,9 +16,11 @@
 }
 
 .license .table {
-  margin: auto;
+  margin: 10px;
+  text-align: left;
 }
 
 .license .table td {
   padding: 0px 5px;
+  vertical-align: top;
 }

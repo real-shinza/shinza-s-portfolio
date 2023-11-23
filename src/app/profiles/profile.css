@@ -13,19 +13,28 @@
   border-radius: 7%;
 }
 
-.profile-right * {
-  margin: 20px;
+.profile-right {
+  margin: 30px;
 }
 
 .profile-name {
+  margin: 0px 10px 15px 10px;
   font-size: 35px;
   font-weight: 600;
   color: #3d3d3d;
 }
 
+.profile-description {
+  margin: 10px;
+}
+
 .profile-description p {
   margin: 0px;
   text-align: left;
+}
+
+.profile-sns {
+  margin: 10px;
 }
 
 .profile-sns * {

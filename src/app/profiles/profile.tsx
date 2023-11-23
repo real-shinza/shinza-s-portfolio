@@ -21,7 +21,7 @@ function Profile() {
         </div>
         <div className="profile-right">
           <div className="profile-name">
-            かいなり（Kainari）
+            新佐かいなり（Shinza Kainari）
           </div>
           <div className="profile-description">
             <p>2000年生まれ。</p>
@@ -44,7 +44,7 @@ function Profile() {
             />
             <SnsButton
               name="github"
-              href="https://github.com/real-kainari"
+              href="https://github.com/real-shinza"
               src="/sns/github.svg"
               size={32}
             />

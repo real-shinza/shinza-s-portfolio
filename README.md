@@ -1,2 +1,2 @@
 ## Portfolio Site
-https://kainari-s-portfolio.firebaseapp.com/
+https://shinza-s-portfolio.vercel.app/

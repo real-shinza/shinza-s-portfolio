@@ -25,6 +25,7 @@ function Biography() {
           { date: "2021年4月", description: "某SES会社 入社" },
           { date: "2021年6月", description: "業務用アプリの結合テストのテストシナリオ作成業務" },
           { date: "2021年11月", description: "業務用アプリの結合テストのテスター業務" },
+          { date: "2021年12月", description: "Web広告計測テクニカルサポート支援業務" },
           { date: "現在", description: "某SES会社 在籍中" },
         ]}
       />

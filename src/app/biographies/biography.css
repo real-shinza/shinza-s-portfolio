@@ -8,7 +8,7 @@
   border: 2px solid #aaaaaa;
   border-radius: 10px;
   padding: 5px;
-  width: min(80%, 520px);
+  width: min(80%, 550px);
   display: inline-block;
   vertical-align: top;
 }
@@ -20,7 +20,7 @@
 }
 
 .biography .table {
-  margin: auto;
+  margin: 5px;
   text-align: left;
   font-size: 17px;
   font-weight: 400;
@@ -29,4 +29,5 @@
 
 .biography .table td {
   padding: 0px 5px;
+  vertical-align: top;
 }

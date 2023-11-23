@@ -2,8 +2,8 @@ import './layout.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Kainari\'s Portfolio',
-  description: 'かいなりのポートフォリオ',
+  title: 'Shinza\'s Portfolio',
+  description: '新佐のポートフォリオ',
 }
 
 function RootLayout({ children, }: { children: React.ReactNode }) {
