@@ -1,6 +1,6 @@
 import './profile.css'
 import Image from 'next/image'
-import SnsButton from './sns_button'
+import SnsButton from './sns-button'
 
 function Profile() {
   return (

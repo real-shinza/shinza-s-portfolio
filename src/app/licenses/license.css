@@ -6,12 +6,10 @@
 .license .prop {
   text-align: left;
   margin: 20px;
-  border: 2px solid #aaaaaa;
-  border-radius: 10px;
   width: min(80%, 650px);
   display: inline-block;
-  font-size: 19px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
   color: #5e5e5e;
 }
 

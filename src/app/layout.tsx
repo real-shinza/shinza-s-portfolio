@@ -1,5 +1,6 @@
 import './layout.css'
 import type { Metadata } from 'next'
+import GoogleTagManager from '../components/google-tag-manager'
 
 export const metadata: Metadata = {
   title: 'Shinza\'s Portfolio',
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 function RootLayout({ children, }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
+      <GoogleTagManager />
       <body>{children}</body>
     </html>
   );

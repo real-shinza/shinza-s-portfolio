@@ -1,5 +1,5 @@
 import './skill.css'
-import Prop from './skill_prop'
+import Prop from './skill-prop'
 
 function Skill() {
   return (
@@ -27,10 +27,10 @@ function Skill() {
         title="フレームワーク"
         skills={[
           "DirectX9",
-          "Xinput",
           "Unity",
           "jQuery",
           "Node.js",
+          "React",
           "Next.js",
         ]}
       />
@@ -39,14 +39,12 @@ function Skill() {
         title="クラウドプラットフォーム"
         skills={[
           "GitHub",
-          "Google App Engine",
+          "Google Apps Script",
           "Google Tag Manager",
           "Cloud Firestore",
           "Firebase Hosting",
           "Cloud Functions",
           "BigQuery",
-          "Heroku",
-          "Glitch",
         ]}
       />
     </div>

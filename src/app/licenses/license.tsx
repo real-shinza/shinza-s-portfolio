@@ -1,5 +1,5 @@
 import './license.css'
-import Prop from './license_prop'
+import Prop from './license-prop'
 
 function License() {
   return (

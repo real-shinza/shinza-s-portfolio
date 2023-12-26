@@ -1,5 +1,5 @@
 import './biography.css'
-import Peop from './biography_prop'
+import Peop from './biography-prop'
 
 function Biography() {
   return (

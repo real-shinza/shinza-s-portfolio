@@ -1,5 +1,5 @@
 import './work.css'
-import Prop from './work_prop'
+import Prop from './work-prop'
 
 function Work() {
   return (
