@@ -11,3 +11,15 @@ html {
   background-color: #ffffff;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
+
+.title {
+  font-size: 50px;
+  color: #3d3d3d;
+}
+
+.subtitle {
+  margin: 15px auto;
+  font-size: 30px;
+  color: #3d3d3d;
+  border-bottom: 3px solid #bbbbbb;
+}

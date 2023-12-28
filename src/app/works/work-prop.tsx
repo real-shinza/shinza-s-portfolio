@@ -1,35 +1,22 @@
-import Link from 'next/link'
-import Image from 'next/image'
-
-interface WorkInfo {
-  className: string,
-  href: string
-  title: string,
-  image: string,
-  description: string
-}
+import Link from 'next/link';
+import Image from 'next/image';
 
 function WorkProp(prop: WorkInfo) {
-  let propClassName: string = `${prop.className} prop`;
-  let titleClassName: string = `${prop.className} title`;
-  let imageClassName: string = `${prop.className} image`;
-  let descriptionClassName: string = `${prop.className} description`;
-
   return (
-    <div className={propClassName}>
-      <Link href={prop.href} target="_blank">
+    <div className="prop" id={prop.id}>
+      <Link className="link" href={prop.href} target="_blank">
         <div>
-          <h3 className={titleClassName}>
-            {prop.title}
-          </h3>
           <Image
-            className={imageClassName}
+            className="image"
             src={prop.image}
             alt="work image"
-            width={172}
-            height={172}
+            width={180}
+            height={180}
           />
-          <div className={descriptionClassName}>
+          <h3 className="name">
+            {prop.name}
+          </h3>
+          <div className="description">
             {prop.description}
           </div>
         </div>

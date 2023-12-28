@@ -1,26 +1,19 @@
-interface SkillInfo {
-  className: string,
-  title: string,
-  skills: string[]
-};
-
 function SkillProp(prop: SkillInfo) {
-  let propClassName: string = `${prop.className} prop`
-  let titleClassName: string = `${prop.className} title`;
-  let contentClassName: string = `${prop.className} content`;
-
   return (
-    <div className={propClassName}>
-      <h3 className={titleClassName}>
-        {prop.title}
+    <div className="prop" id={prop.id}>
+      <h3 className="subtitle">
+        {prop.subtitle}
       </h3>
-      <div className={contentClassName}>
-        {prop.skills.map((skill, index) => (
-          <div key={index}>
-            {skill}
-          </div>
-        ))}
-      </div>
+      <table className="table">
+        <tbody>
+          {prop.skills.map((skill, index) => (
+            <tr key={index}>
+              <td className="name">{skill.name}</td>
+              <td className="exp">{skill.exp}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }

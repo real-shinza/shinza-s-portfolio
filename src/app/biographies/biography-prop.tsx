@@ -1,20 +1,10 @@
-interface BiographyInfo {
-  className: string,
-  title: string,
-  biographies: { date: string, description: string, }[]
-};
-
 function BiographyPeop(prop: BiographyInfo) {
-  let propClassName: string = `${prop.className} prop`
-  let titleClassName: string = `${prop.className} title`;
-  let tableClassName: string = `${prop.className} table`;
-
   return (
-    <div className={propClassName}>
-      <h3 className={titleClassName}>
-        {prop.title}
+    <div className="prop" id={prop.id}>
+      <h3 className="subtitle">
+        {prop.subtitle}
       </h3>
-      <table className={tableClassName}>
+      <table className="table">
         <tbody>
           {prop.biographies.map((biography, index) => (
             <tr key={index}>

@@ -1,24 +1,21 @@
-.license-title {
-  font-size: 45px;
-  color: #3d3d3d;
-}
+#license {
+  .prop {
+    margin: 20px;
+    width: min(90%, 700px);
+    display: inline-block;
+  }
 
-.license .prop {
-  text-align: left;
-  margin: 20px;
-  width: min(80%, 650px);
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 600;
-  color: #5e5e5e;
-}
+  .table {
+    margin: 10px auto;
+    text-align: left;
+  }
 
-.license .table {
-  margin: 10px;
-  text-align: left;
-}
-
-.license .table td {
-  padding: 0px 5px;
-  vertical-align: top;
+  .date, .name {
+    text-align: left;
+    padding: 0px 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5e5e5e;
+    vertical-align: top;
+  }
 }

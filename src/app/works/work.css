@@ -1,29 +1,32 @@
-.work-title {
-  font-size: 45px;
-  color: #3d3d3d;
-}
+#work {
+  .prop {
+    margin: 20px;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 1px solid #bbbbbb;
+    transition: transform .2s ease;
+  }
 
-.work .prop {
-  margin: 20px;
-  border: 2px solid #aaaaaa;
-  border-radius: 10px;
-  padding: 5px;
-  width: min(80%, 230px);
-  display: inline-block;  
-  vertical-align: top;
-}
+  .prop:hover {
+    transform: scale(1.05);
+  }
 
-.work .prop a {
-  color:inherit;
-  text-decoration: none;
-}
+  .link {
+    text-decoration: none;
+  }
 
-.work .title {
-  margin-top: 5px;
-  font-size: 22px;
-  color: #3d3d3d;
-}
+  .name {
+    margin: 0px;
+    height: 50px;
+    font-size: 17px;
+    color: #3d3d3d;
+  }
 
-.work .description {
-  color: #4e4e4e;
+  .description {
+    height: 37px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5e5e5e;
+  }
 }
