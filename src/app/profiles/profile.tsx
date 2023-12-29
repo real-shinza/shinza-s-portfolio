@@ -11,7 +11,7 @@ function Profile() {
       <div className="prop">
         <div className="left">
           <Image
-            className="image"
+            className="profile-image"
             src="/profile.jpg"
             alt="Profile image"
             width={256}

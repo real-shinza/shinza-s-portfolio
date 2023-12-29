@@ -4,7 +4,7 @@ import Image from 'next/image';
 function SnsButton(sns: Sns) {
   return (
     <div className="icon">
-      <Link href={sns.href} target="_blank">
+      <Link className="sns-link" id={sns.name} href={sns.href} target="_blank">
         <Image
           className="icon-img"
           src={sns.src}
