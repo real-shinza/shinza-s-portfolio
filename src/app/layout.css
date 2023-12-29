@@ -1,12 +1,11 @@
 html {
-  margin: auto;
   background-color: #eceff0;
 }
 
 .card {
   margin: 90px auto;
   padding: 10px;
-  width: min(75%, 1200px);
+  width: min(75%, 1000px);
   text-align: center;
   background-color: #ffffff;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
@@ -21,5 +20,5 @@ html {
   margin: 15px auto;
   font-size: 30px;
   color: #3d3d3d;
-  border-bottom: 3px solid #bbbbbb;
+  border-bottom: 2px solid #bbbbbb;
 }

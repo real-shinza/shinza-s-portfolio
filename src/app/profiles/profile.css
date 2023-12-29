@@ -56,10 +56,10 @@
   }
 
   .icon-img {
-    transition: transform .2s ease;
+    transition: transform .15s ease;
   }
 
   .icon-img:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
 }

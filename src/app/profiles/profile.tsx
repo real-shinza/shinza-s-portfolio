@@ -16,23 +16,24 @@ function Profile() {
             alt="Profile image"
             width={256}
             height={256}
+            priority={true}
           />
         </div>
         <div className="right">
           <div className="name">
-            <div className="ja main-name">
+            <div className="main-name">
               新佐 かいなり
             </div>
-            <div className="en sub-name">
+            <div className="sub-name" lang="en">
               Shinza Kainari
             </div>
-            <div className="ja sub-name">
-              シンザ カイナリ
+            <div className="sub-name" lang="ja">
+              しんざ かいなり
             </div>
-            <div className="zh sub-name">
+            <div className="sub-name" lang="zh">
               新佐 佳也
             </div>
-            <div className="ko sub-name">
+            <div className="sub-name" lang="ko">
               신자 카이나리
             </div>
           </div>
