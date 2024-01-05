@@ -12,6 +12,10 @@
     transform: scale(1.05);
   }
 
+  .image {
+    border: solid 1px #bbbbbb;
+  }
+
   .link {
     text-decoration: none;
   }
