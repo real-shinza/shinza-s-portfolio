@@ -1,3 +1,4 @@
+import Header from '../components/header/header';
 import Profile from './profiles/profile';
 import Work from './works/work';
 import Biography from './biographies/biography';
@@ -6,13 +7,16 @@ import License from './licenses/license';
 
 function Home() {
   return (
-    <main>
-      <Profile />
-      <Work />
-      <Biography />
-      <Skill />
-      <License />
-    </main>
+    <>
+      <Header />
+      <main>
+        <Profile />
+        <Work />
+        <Biography />
+        <Skill />
+        <License />
+      </main>
+    </>
   );
 }
 

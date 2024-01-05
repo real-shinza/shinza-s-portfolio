@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-bottom: 2px solid #52c2d0;
+  position: fixed;
+
+  .header-left, .header-right {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .header-left {
+    width: 350px;
+    background-color: #52c2d0;
+  }
+
+  .header-right {
+    margin: auto;
+  }
+
+  .top-link {
+    text-decoration: none;
+  }
+
+  .site-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .menu {
+    margin: auto 25px;
+    display: inline-block;
+  }
+
+  .menu-link {
+    text-decoration: none;
+  }
+
+  .menu-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3d3d3d;
+    text-align: center;
+  }
+
+  .menu-name:hover {
+    color: #52c2d0;
+  }
+}

@@ -3,7 +3,7 @@ import GoogleTagManager from '../components/google-tag-manager';
 import './layout.css';
 
 export const metadata: Metadata = {
-  title: 'Shinza\'s Portfolio',
+  title: 'Shinza\'s Portfolio - Top',
   description: '新佐のポートフォリオ',
   keywords: '新佐,ポートフォリオ,エンジニア',
   viewport: { width: "device-width", initialScale: 0.5 },

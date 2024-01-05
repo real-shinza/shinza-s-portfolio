@@ -2,6 +2,10 @@ html {
   background-color: #eceff0;
 }
 
+body {
+  margin: 0px;
+}
+
 .card {
   margin: 90px auto;
   padding: 10px;
