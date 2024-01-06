@@ -6,6 +6,10 @@ body {
   margin: 0px;
 }
 
+.card:first-child {
+  margin-top: 135px;
+}
+
 .card {
   margin: 90px auto;
   padding: 10px;

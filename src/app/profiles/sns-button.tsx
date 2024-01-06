@@ -5,13 +5,14 @@ function SnsButton(sns: Sns) {
   return (
     <div className="icon">
       <Link className="sns-link" id={sns.name} href={sns.href} target="_blank">
-        <Image
-          className="icon-img"
-          src={sns.src}
-          alt={sns.name}
-          width={sns.size}
-          height={sns.size}
-        />
+        <div className="icon-img">
+          <Image
+            src={sns.src}
+            alt={sns.name}
+            width={sns.size}
+            height={sns.size}
+          />
+        </div>
       </Link>
     </div>
   );

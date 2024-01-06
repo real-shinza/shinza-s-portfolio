@@ -5,20 +5,11 @@
   background-color: #ffffff;
   border-bottom: 3px solid #5e5e5e;
   position: fixed;
+  z-index: 10;
 
   .header-left, .header-right {
     display: inline-block;
     vertical-align: middle;
-  }
-
-  .header-left {
-    background-color: #5e5e5e;
-  }
-
-  .header-right{
-    width: 100% - 350px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .top-link {
@@ -28,6 +19,15 @@
   .site-title {
     width: 350px;
     height: 65px;
+    background-color: #5e5e5e;
+    display: table;
+  }
+
+  .site-title:hover .site-name {
+    color: #bbbbbb;
+  }
+
+  .site-name {
     font-size: 35px;
     font-weight: 600;
     color: #ffffff;
@@ -36,8 +36,12 @@
     vertical-align: middle;
   }
 
+  .menus {
+    margin: auto 20px;
+  }
+
   .menu {
-    margin: auto 25px;
+    margin: auto 15px;
     display: inline-block;
     vertical-align: middle;
   }
