@@ -1,7 +1,18 @@
+interface WorkLink {
+  name: string,
+  link: string,
+  color_code: {
+    backgroundColor: string,
+    borderColor: string,
+  },
+}
+
 interface WorkInfo {
   id: string,
-  href: string
   name: string,
   image: string,
-  description: string
+  description_short?: string,
+  description_long?: string,
+  skills?: string[],
+  links?: WorkLink[],
 }

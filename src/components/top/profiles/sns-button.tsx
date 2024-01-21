@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-function SnsButton(sns: Sns) {
+export default function SnsButton(sns: Sns) {
   return (
     <div className="icon">
       <Link className="sns-link" id={sns.name} href={sns.href} target="_blank">
@@ -17,5 +17,3 @@ function SnsButton(sns: Sns) {
     </div>
   );
 }
-
-export default SnsButton;

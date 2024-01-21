@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-function MenuButton(button: MenuButton) {
+export default function MenuButton(button: MenuButton) {
   return (
     <div className="menu">
       <Link className="menu-link" href={button.href}>
@@ -11,5 +11,3 @@ function MenuButton(button: MenuButton) {
     </div>
   );
 }
-
-export default MenuButton;

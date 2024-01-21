@@ -1,6 +1,6 @@
 import Script from 'next/script';
 
-function GoogleTagManager() {
+export default function GoogleTagManager() {
   return (
     <Script
       id="gtm"
@@ -17,5 +17,3 @@ function GoogleTagManager() {
     />
   );
 }
-
-export default GoogleTagManager;

@@ -1,8 +1,8 @@
 import Peop from './biography-prop';
+import data from '../../../data/biography.json';
 import './biography.css';
-import data from '../../data/biography.json';
 
-function Biography() {
+export default function Biography() {
   const educational_background: BiographyData[] = data.educational_background;
   const work_history: BiographyData[] = data.work_history;
   return (
@@ -23,5 +23,3 @@ function Biography() {
     </div>
   );
 }
-
-export default Biography;

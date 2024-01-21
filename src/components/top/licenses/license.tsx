@@ -1,7 +1,7 @@
+import data from '../../../data/license.json';
 import './license.css';
-import data from '../../data/license.json';
 
-function License() {
+export default function License() {
   const licenses: LicenseData[] = data.licenses;
   return (
     <div className="card" id="license">
@@ -23,5 +23,3 @@ function License() {
     </div>
   );
 }
-
-export default License;

@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-function WorkProp(prop: WorkInfo) {
+export default function WorkProp(prop: WorkInfo) {
   return (
     <div className="prop" id={prop.id}>
-      <Link className="link" href={prop.href} target="_blank">
+      <Link className="link" href={`/work/${prop.id}`}>
         <div>
           <Image
             className="image"
@@ -17,12 +17,10 @@ function WorkProp(prop: WorkInfo) {
             {prop.name}
           </h3>
           <div className="description">
-            {prop.description}
+            {prop.description_short}
           </div>
         </div>
       </Link>
     </div>
   );
 }
-
-export default WorkProp;

@@ -1,8 +1,8 @@
-import './profile.css';
 import Image from 'next/image';
 import SnsButton from './sns-button';
+import './profile.css';
 
-function Profile() {
+export default function Profile() {
   return (
     <div className="card" id="profile">
       <h1 className="title">
@@ -22,23 +22,23 @@ function Profile() {
         <div className="right">
           <div className="name">
             <div className="main-name">
-              新佐 かいなり
+              新佐 佳也
             </div>
             <div className="sub-name" lang="en">
-              Shinza Kainari
+              Shinza Yoshiya
             </div>
             <div className="sub-name" lang="ja">
-              しんざ かいなり
+              しんざ よしや
             </div>
             <div className="sub-name" lang="zh">
               新佐 佳也
             </div>
             <div className="sub-name" lang="ko">
-              신자 카이나리
+              신자 요시야
             </div>
           </div>
           <div className="description">
-            <p>西暦2000年&#40;平成12年&#41;生まれ。偽名です。</p>
+            <p>西暦2000年&#40;平成12年&#41;生まれ。</p>
             <p>石川県野々市市出身ですが、よくお隣の金沢市出身と偽っています。</p>
             <p>現在は社会人をしながら通信制大学に通っています。</p>
             <p>自作ゲームを完成させることが目標です。</p>
@@ -80,5 +80,3 @@ function Profile() {
     </div>
   );
 }
-
-export default Profile;

@@ -1,8 +1,8 @@
-import './skill.css';
 import Prop from './skill-prop';
-import data from '../../data/skill.json';
+import data from '../../../data/skill.json';
+import './skill.css';
 
-function Skill() {
+export default function Skill() {
   const programming_languages = data.programming_languages;
   const frameworks = data.frameworks;
   const project_managements = data.project_managements;
@@ -35,5 +35,3 @@ function Skill() {
     </div>
   );
 }
-
-export default Skill;

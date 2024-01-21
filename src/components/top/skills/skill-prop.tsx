@@ -1,4 +1,4 @@
-function BiographyPeop(prop: BiographyInfo) {
+export default function SkillProp(prop: SkillInfo) {
   return (
     <div className="prop" id={prop.id}>
       <h3 className="subtitle">
@@ -6,10 +6,10 @@ function BiographyPeop(prop: BiographyInfo) {
       </h3>
       <table className="table">
         <tbody>
-          {prop.biographies.map((biography, index) => (
+          {prop.skills.map((skill, index) => (
             <tr key={index}>
-              <td className="date">{biography.date}</td>
-              <td className="description">{biography.description}</td>
+              <td className="name">{skill.name}</td>
+              <td className="exp">{skill.exp}</td>
             </tr>
           ))}
         </tbody>
@@ -17,5 +17,3 @@ function BiographyPeop(prop: BiographyInfo) {
     </div>
   );
 }
-
-export default BiographyPeop;

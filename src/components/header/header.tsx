@@ -2,7 +2,7 @@ import Link from 'next/link';
 import MenuButton from './menu-button';
 import './header.css';
 
-function Header() {
+export default function Header() {
   return (
     <header className="header">
       <div className="header-left">
@@ -41,5 +41,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

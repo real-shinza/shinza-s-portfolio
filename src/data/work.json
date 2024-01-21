@@ -1,0 +1,87 @@
+{
+  "works": [
+    {
+      "id": "shinza-s-portfolio",
+      "name": "Shinza's Portfolio",
+      "image": "/works/shinza-s-portfolio.jpg",
+      "description_short": "新佐のポートフォリオサイト",
+      "description_long": "TypeScript と Next.js の学習を兼ねて制作したポートフォリオサイトです。Next.js は面白いです。",
+      "skills": [
+        "TypeScript",
+        "CSS3",
+        "Next.js",
+        "GitHub",
+        "Vercel",
+        "Google Tag Manager",
+        "Google Analytics",
+        "Visual Studio Code"
+      ],
+      "links": [
+        {
+          "name": "View Site",
+          "link": "https://shinza-s-portfolio.vercel.app/",
+          "color_code": "#008000"
+        },
+        {
+          "name": "GitHub",
+          "link": "https://github.com/real-shinza/shinza-s-portfolio",
+          "color_code": "#181717"
+        }
+      ]
+    },
+    {
+      "id": "translate-number-to-strings",
+      "name": "Translate number to strings",
+      "image": "/works/translate-number-to-strings.jpg",
+      "description_short": "数値を英語、日本語、中国語、韓国語に変換するサイト",
+      "description_long": "HTML と CSS で制作したシンプルなサイトです。JavaScript で数値を英語、日本語、中国語、韓国語に変換しています。頑張りました！",
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "GitHub",
+        "GitHub Pages",
+        "Google Tag Manager",
+        "Google Analytics",
+        "Visual Studio Code"
+      ],
+      "links": [
+        {
+          "name": "View Site",
+          "link": "https://real-shinza.github.io/translate-number-to-strings/",
+          "color_code": "#008000"
+        },
+        {
+          "name": "GitHub",
+          "link": "https://github.com/real-shinza/translate-number-to-strings",
+          "color_code": "#181717"
+        }
+      ]
+    },
+    {
+      "id": "towa-2d",
+      "name": "とわ2D",
+      "image": "/works/towa-2d.jpg",
+      "description_short": "雑に作った横スクロールゲーム",
+      "description_long": "ゲームエンジンの Unity を使用して作成した簡単な横スクロールゲームです。入力関連のシステムとローカライゼーションの検証を一番の目的に作ってみました。身内ネタ満載のゲームです。若干バグが残っています。日本語、英語、簡体字、繁体字、韓国語、インドネシア語に対応しています。",
+      "skills": [
+        "C#",
+        "Unity",
+        "GitHub",
+        "Visual Studio 2022"
+      ],
+      "links": [
+        {
+          "name": "View Site",
+          "link": "https://unityroom.com/games/towa-2d",
+          "color_code": "#008000"
+        },
+        {
+          "name": "GitHub",
+          "link": "https://github.com/real-shinza/towa-2d",
+          "color_code": "#181717"
+        }
+      ]
+    }
+  ]
+}
