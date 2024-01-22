@@ -1,22 +1,24 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { redirect } from "next/navigation";
-import { getWork } from '../../../lib/works/work';
+import { getWork, getFilterWorks } from '../../../lib/works/work';
 import Header from '../../../components/header/header';
+import Prop from '../../../components/work/work-prop';
 import './page.css';
 import './work.css';
 
 export default function Work({ params }: { params: { id: string } }) {
   const id = params.id;
   const works = getWork(id);
-  if(!works) {
+  const otherWorks = getFilterWorks(id);
+  if (!works) {
     redirect('/');
   }
   return (
     <>
       <Header />
       <main>
-        <div className="card" id="work">
+        <div className="card" id="work-info">
           <h1 className="title">
             {works!.name}
           </h1>
@@ -59,6 +61,24 @@ export default function Work({ params }: { params: { id: string } }) {
                 </Link>
               </div>
             ))}
+          </div>
+        </div>
+        <div className="card" id="work">
+          <h1 className="title">
+            他の作品
+          </h1>
+          <div className="area">
+            <div className="works">
+              {otherWorks.map((work, index) => (
+                <Prop
+                  key={index}
+                  id={work.id}
+                  name={work.name}
+                  image={work.image}
+                  description_short={work.description_short}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </main>

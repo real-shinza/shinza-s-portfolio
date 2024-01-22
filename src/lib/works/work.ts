@@ -12,10 +12,7 @@ export function getAllWorks(): WorkInfo[] {
     links: data.links.map(link => ({
       name: link.name,
       link: link.link,
-      color_code: {
-        backgroundColor: link.color_code,
-        borderColor: link.color_code,
-      },
+      color_code: { backgroundColor: link.color_code },
     } as WorkLink)),
   } as WorkInfo)
   );
@@ -40,10 +37,7 @@ export function getWork(id: string): WorkInfo | undefined {
     links: data.links.map(link => ({
       name: link.name,
       link: link.link,
-      color_code: {
-        backgroundColor: link.color_code,
-        borderColor: link.color_code,
-      },
+      color_code: { backgroundColor: link.color_code },
     } as WorkLink)),
   } as WorkInfo;
   return work;

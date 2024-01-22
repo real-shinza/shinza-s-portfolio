@@ -1,10 +1,7 @@
 interface WorkLink {
   name: string,
   link: string,
-  color_code: {
-    backgroundColor: string,
-    borderColor: string,
-  },
+  color_code: { backgroundColor: string },
 }
 
 interface WorkInfo {

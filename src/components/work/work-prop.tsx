@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import './work.css';
 
 export default function WorkProp(prop: WorkInfo) {
   return (

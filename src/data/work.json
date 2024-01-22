@@ -5,7 +5,7 @@
       "name": "Shinza's Portfolio",
       "image": "/works/shinza-s-portfolio.jpg",
       "description_short": "新佐のポートフォリオサイト",
-      "description_long": "TypeScript と Next.js の学習を兼ねて制作したポートフォリオサイトです。Next.js は面白いです。",
+      "description_long": "TypeScript と Next.js の学習を兼ねて制作したポートフォリオサイトです。\nNext.js は面白いです。",
       "skills": [
         "TypeScript",
         "CSS3",
@@ -34,7 +34,7 @@
       "name": "Translate number to strings",
       "image": "/works/translate-number-to-strings.jpg",
       "description_short": "数値を英語、日本語、中国語、韓国語に変換するサイト",
-      "description_long": "HTML と CSS で制作したシンプルなサイトです。JavaScript で数値を英語、日本語、中国語、韓国語に変換しています。頑張りました！",
+      "description_long": "HTML と CSS で制作したシンプルなサイトです。\nJavaScript で数値を英語、日本語、中国語、韓国語に変換しています。頑張りました！",
       "skills": [
         "HTML5",
         "CSS3",
@@ -63,7 +63,7 @@
       "name": "とわ2D",
       "image": "/works/towa-2d.jpg",
       "description_short": "雑に作った横スクロールゲーム",
-      "description_long": "ゲームエンジンの Unity を使用して作成した簡単な横スクロールゲームです。入力関連のシステムとローカライゼーションの検証を一番の目的に作ってみました。身内ネタ満載のゲームです。若干バグが残っています。日本語、英語、簡体字、繁体字、韓国語、インドネシア語に対応しています。",
+      "description_long": "ゲームエンジンの Unity を使用して作成した簡単な横スクロールゲームです。\n入力関連のシステムとローカライゼーションの検証を一番の目的に作ってみました。\n身内ネタ満載のゲームです。若干バグが残っています。\n日本語、英語、簡体字、繁体字、韓国語、インドネシア語に対応しています。",
       "skills": [
         "C#",
         "Unity",
@@ -82,6 +82,36 @@
           "color_code": "#181717"
         }
       ]
+    },
+    {
+      "id": "Discord-bot",
+      "name": "Discordボット",
+      "image": "/works/Discord-bot.jpg",
+      "description_short": "Discordの多機能ボット",
+      "description_long": "現在も開発途中のDiscordの多機能ボットです。\n諸事情により制作物はお見せできません。\n現在は歓迎メッセージの自動投稿、ロールの付与機能があります。\n今後も機能追加予定です。",
+      "skills": [
+        "TypeScript",
+        "discord.js",
+        "GitHub",
+        "Docker",
+        "Visual Studio Code"
+      ],
+      "links": []
+    },
+    {
+      "id": "untiy-rpg",
+      "name": "Unity製自作PRG",
+      "image": "/works/untiy-rpg.jpg",
+      "description_short": "自作のロールプレイングゲーム",
+      "description_long": "ゲームエンジンのUniryで現在も制作中のRPG。\n諸事情により制作物はお見せできません。\nこのゲームを完成させるのが目標の一つです。",
+      "skills": [
+        "C#",
+        "Unity",
+        "Odin Inspector and Serializer",
+        "GitHub",
+        "Visual Studio 2022"
+      ],
+      "links": []
     }
   ]
 }

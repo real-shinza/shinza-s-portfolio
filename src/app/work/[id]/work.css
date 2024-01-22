@@ -1,4 +1,4 @@
-#work {
+#work-info {
   .image {
     border: solid 1px #bbbbbb;
   }
@@ -13,6 +13,7 @@
   .description {
     margin: 50px auto;
     width: min(80%, 600px);
+    white-space: pre-wrap;
   }
 
   .sentence {
@@ -64,5 +65,17 @@
   .button:hover {
     cursor: pointer;
     transform: scale(1.1);
+  }
+}
+
+#work {
+  .area {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .works {
+    display: flex;
+    overflow-x: scroll;
   }
 }
