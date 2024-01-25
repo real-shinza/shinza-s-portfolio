@@ -1,6 +1,5 @@
-interface Sns {
+interface SnsInfo {
   name: string,
   href: string,
   src: string,
-  size: number,
 }

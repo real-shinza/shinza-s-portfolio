@@ -1,0 +1,17 @@
+.sns {
+  .icon {
+    margin: 15px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .icon-img {
+    width: 32px;
+    height: 32px;
+    transition: transform .15s ease;
+  }
+
+  .icon-img:hover {
+    transform: scale(1.3);
+  }
+}

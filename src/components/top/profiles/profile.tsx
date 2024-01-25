@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import SnsButton from './sns-button';
+import ProfileImages from './profile-image';
+import SnsButtons from './sns-button';
 import './profile.css';
 
 export default function Profile() {
@@ -10,14 +10,7 @@ export default function Profile() {
       </h1>
       <div className="prop">
         <div className="left">
-          <Image
-            className="profile-image"
-            src="/profile.jpg"
-            alt="Profile image"
-            width={256}
-            height={256}
-            priority={true}
-          />
+          <ProfileImages />
         </div>
         <div className="right">
           <div className="name">
@@ -40,43 +33,13 @@ export default function Profile() {
           <div className="description">
             <p>
               西暦2000年&#40;平成12年&#41;生まれ。<br />
-              石川県野々市市出身ですが、よくお隣の金沢市出身と偽っています。<br />
+              石川県野々市市出身。金沢&#40;加賀地方&#41;と珠洲&#40;能登地方&#41;の混血。<br />
+              よくお隣の金沢市出身と偽っています。<br />
               現在は社会人をしながら通信制大学に通っています。<br />
               自作ゲームを完成させることが目標です。<br />
             </p>
           </div>
-          <div className="sns">
-            <SnsButton
-              name="x"
-              href="https://twitter.com/real_kainari"
-              src="/sns/x.svg"
-              size={32}
-            />
-            <SnsButton
-              name="facebook"
-              href="https://www.facebook.com/profile.php?id=100011508277452"
-              src="/sns/facebook.svg"
-              size={32}
-            />
-            <SnsButton
-              name="discord"
-              href="https://discord.com/users/671696583481360385"
-              src="/sns/discord.svg"
-              size={32}
-            />
-            <SnsButton
-              name="github"
-              href="https://github.com/real-shinza"
-              src="/sns/github.svg"
-              size={32}
-            />
-            <SnsButton
-              name="zenn"
-              href="https://zenn.dev/kainari"
-              src="/sns/zenn.svg"
-              size={32}
-            />
-          </div>
+          <SnsButtons />
         </div>
       </div>
     </div>

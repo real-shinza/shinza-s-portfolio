@@ -1,9 +1,3 @@
-interface WorkLink {
-  name: string,
-  link: string,
-  color_code: { backgroundColor: string },
-}
-
 interface WorkInfo {
   id: string,
   name: string,
@@ -12,4 +6,10 @@ interface WorkInfo {
   description_long?: string,
   skills?: string[],
   links?: WorkLink[],
+}
+
+interface WorkLink {
+  name: string,
+  link: string,
+  color_code: { backgroundColor: string },
 }
