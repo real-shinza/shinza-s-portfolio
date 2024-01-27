@@ -7,13 +7,14 @@ export default function WorkProp(prop: WorkInfo) {
     <div className="prop" id={prop.id}>
       <Link className="link" href={`/work/${prop.id}`}>
         <div>
-          <Image
-            className="image"
-            src={prop.image}
-            alt="work image"
-            width={180}
-            height={180}
-          />
+          <div className="image">
+            <Image
+              src={prop.image}
+              alt="work image"
+              width={180}
+              height={180}
+            />
+          </div>
           <h3 className="name">
             {prop.name}
           </h3>

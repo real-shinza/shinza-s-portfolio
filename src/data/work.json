@@ -86,9 +86,9 @@
     {
       "id": "Discord-bot",
       "name": "Discordボット",
-      "image": "/works/Discord-bot.jpg",
+      "image": "/works/discord-bot.jpg",
       "description_short": "Discordの多機能ボット",
-      "description_long": "現在も開発途中のDiscordの多機能ボットです。\n諸事情により制作物はお見せできません。\n現在は歓迎メッセージの自動投稿、ロールの付与機能があります。\n今後も機能追加予定です。",
+      "description_long": "現在も開発途中のDiscordの多機能ボットです。\n諸事情により制作物はお見せできません。\n現在は歓迎メッセージの自動投稿、ロールの付与機能などがあります。\n今後も機能追加予定です。",
       "skills": [
         "TypeScript",
         "discord.js",
