@@ -26,7 +26,7 @@
     },
     {
       "name": "TypeScript",
-      "exp": "趣味1年未満"
+      "exp": "業務1年未満"
     },
     {
       "name": "HTML5",
@@ -35,6 +35,10 @@
     {
       "name": "CSS3",
       "exp": "趣味1年以上"
+    },
+    {
+      "name": "SQL",
+      "exp": "業務1年以上"
     }
   ],
   "frameworks": [

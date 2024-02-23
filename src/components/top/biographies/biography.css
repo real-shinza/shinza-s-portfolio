@@ -13,16 +13,17 @@
     padding: 0px 5px;
     vertical-align: top;
     text-align: left;
-    font-size: 18px;
     font-weight: 600;
     color: #5e5e5e;
   }
   
   .date {
-    width: 110px;
+    width: 170px;
+    font-size: 14px;
   }
 
   .description {
-    width: 440px;
+    width: 350px;
+    font-size: 18px;
   }
 }
