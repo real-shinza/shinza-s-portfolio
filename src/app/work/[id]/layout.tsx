@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import GoogleTagManager from '../../../components/google-tag-manager';
+import { GoogleTagManager } from '@next/third-parties/google';
 import { getWork } from '../../../lib/works/work';
 import './layout.css';
 
@@ -11,7 +11,6 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     description: `新佐のポートフォリオ - ${works?.name}`,
     keywords: '新佐,ポートフォリオ,エンジニア',
     icons: [{ rel: 'icon', url: '/icons/favicon.ico' }],
-    viewport: { width: "device-width", initialScale: 0.5 },
     openGraph: {
       type: 'website',
       description: `新佐のポートフォリオ - ${works?.name}`,
@@ -27,10 +26,8 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
-      <head>
-        <GoogleTagManager />
-      </head>
       <body>
+      <GoogleTagManager gtmId="GTM-THB3JD7F"/>
         {children}
       </body>
     </html>

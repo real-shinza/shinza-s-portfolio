@@ -17,16 +17,16 @@ export default function Profile() {
             <div className="main-name">
               新佐 佳也
             </div>
-            <div className="sub-name" lang="en">
+            <div className="sub-name en" lang="en">
               Shinza Yoshiya
             </div>
-            <div className="sub-name" lang="ja">
+            <div className="sub-name ja" lang="ja">
               しんざ よしや
             </div>
-            <div className="sub-name" lang="zh">
+            <div className="sub-name zh" lang="zh">
               新佐 佳也
             </div>
-            <div className="sub-name" lang="ko">
+            <div className="sub-name ko" lang="ko">
               신자 요시야
             </div>
           </div>
@@ -34,8 +34,7 @@ export default function Profile() {
             <p>
               西暦2000年&#40;平成12年&#41;生まれ。<br />
               石川県野々市市出身。加賀国と能登国の混血。<br />
-              よくお隣の金沢市出身と偽っています。<br />
-              エセ関西弁混じりの金沢弁は話していて標準語を話すのが苦手です。<br />
+              エセ関西弁混じりの金沢弁を話します。<br />
               現在は社会人をしながら通信制大学に通っています。<br />
             </p>
           </div>
