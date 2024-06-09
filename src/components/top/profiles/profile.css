@@ -25,10 +25,10 @@
   }
 
   .sub-name {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     color: #3d3d3d;
-    margin: auto 10px;
+    margin: auto 7px;
     display: inline-block;
     vertical-align: middle;
   }

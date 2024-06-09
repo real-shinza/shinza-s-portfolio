@@ -29,6 +29,9 @@ export default function Profile() {
             <div className="sub-name ko" lang="ko">
               신자 요시야
             </div>
+            <div className="sub-name ko" lang="ru">
+              Синдза Ёсия
+            </div>
           </div>
           <div className="description">
             <p>

@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja">
       <body>
-      <GoogleTagManager gtmId="GTM-THB3JD7F"/>
+        <GoogleTagManager gtmId="GTM-THB3JD7F"/>
         {children}
       </body>
     </html>

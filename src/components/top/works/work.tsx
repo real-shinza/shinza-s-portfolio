@@ -1,5 +1,6 @@
 import Prop from '../../work/work-prop';
 import { getAllWorks } from '../../../lib/works/work';
+import './work.css';
 
 export default function Work() {
   const works = getAllWorks();
