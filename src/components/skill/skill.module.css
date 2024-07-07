@@ -1,0 +1,24 @@
+.table {
+  margin: 5px auto;
+}
+
+.table td {
+  padding: 0px 5px;
+  text-align: left;
+}
+
+.name {
+  width: 200px;
+  vertical-align: top;
+  font-size: 18px;
+  font-weight: 600;
+  color: #5e5e5e;
+}
+
+.exp {
+  width: 100px;
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: 400;
+  color: #5e5e5e;
+}

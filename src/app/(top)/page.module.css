@@ -1,0 +1,40 @@
+.name {
+  margin: 0px 10px 15px 10px;
+}
+
+.profile_left, .profile_right {
+  margin: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile_right {
+  margin: auto 30px;
+}
+
+.main_name {
+  font-size: 40px;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+.sub_name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin: auto 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.description {
+  margin: 10px 25px;
+}
+
+.description p {
+  margin: 0px auto;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+  color: #5e5e5e;
+}

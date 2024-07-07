@@ -1,0 +1,20 @@
+.menu {
+  margin: auto 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3d3d3d;
+  text-align: center;
+}
+
+.name:hover {
+  color: #bbbbbb;
+}

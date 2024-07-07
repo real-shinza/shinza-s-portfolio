@@ -1,0 +1,21 @@
+.table {
+  margin: 5px auto;
+}
+
+.date, .description {
+  padding: 0px 5px;
+  vertical-align: top;
+  text-align: left;
+  font-weight: 600;
+  color: #5e5e5e;
+}
+
+.date {
+  width: 170px;
+  font-size: 14px;
+}
+
+.description {
+  width: 350px;
+  font-size: 18px;
+}

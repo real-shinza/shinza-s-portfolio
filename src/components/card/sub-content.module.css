@@ -1,0 +1,12 @@
+.sub_content {
+  margin: 50px auto;
+  width: min(80%, 700px);
+  display: block;
+}
+
+.subtitle {
+  margin: 15px auto;
+  font-size: 30px;
+  color: #3d3d3d;
+  border-bottom: 2px solid #bbbbbb;
+}

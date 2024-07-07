@@ -1,0 +1,13 @@
+.table {
+  margin: 10px auto;
+  text-align: left;
+}
+
+.date, .name {
+  text-align: left;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #5e5e5e;
+  vertical-align: top;
+}

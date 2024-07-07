@@ -1,0 +1,15 @@
+.social_media {
+  margin: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image {
+  width: 32px;
+  height: 32px;
+  transition: transform .15s ease;
+}
+
+.image:hover {
+  transform: scale(1.3);
+}

@@ -1,0 +1,9 @@
+export { Biography } from './biography/biography';
+export { Card } from './card/card';
+export { SubContent } from './card/sub-content';
+export { Header } from './header/header';
+export { License } from './license/license';
+export { ProfileImage } from './profile/profile-image';
+export { SocialMedia } from './profile/social-media';
+export { Skill } from './skill/skill';
+export { Work } from './work/work';

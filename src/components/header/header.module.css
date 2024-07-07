@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-bottom: 3px solid #5e5e5e;
+  position: fixed;
+  z-index: 10;
+}
+
+.list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  width: 350px;
+  height: 65px;
+  background-color: #5e5e5e;
+  display: table;
+}
+
+.title:hover .name {
+  color: #bbbbbb;
+}
+
+.name {
+  font-size: 35px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.menus {
+  margin: auto 20px;
+}
