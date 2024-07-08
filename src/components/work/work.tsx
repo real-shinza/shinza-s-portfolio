@@ -26,4 +26,4 @@ export const Work = (args: { work: WorkData }) => {
       </Link>
     </div>
   );
-}
+};

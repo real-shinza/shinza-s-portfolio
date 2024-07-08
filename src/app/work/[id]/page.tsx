@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { redirect } from "next/navigation";
+import { redirect } from 'next/navigation';
 import { Card, SubContent, Header } from '../../../components';
 import { works } from '../../../data';
 import styles from './page.module.css';
@@ -8,9 +8,7 @@ import styles from './page.module.css';
 export default ({ params }: { params: { id: string } }) => {
   const id = params.id;
   const work = works.find(data => data.id === id);
-  if (!work) {
-    redirect('/');
-  }
+  if (!work) redirect('/');
   return (
     <>
       <Header />
@@ -52,4 +50,4 @@ export default ({ params }: { params: { id: string } }) => {
       </main>
     </>
   );
-}
+};

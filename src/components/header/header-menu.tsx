@@ -14,4 +14,4 @@ export const Menu = (args: {
       </Link>
     </div>
   );
-}
+};

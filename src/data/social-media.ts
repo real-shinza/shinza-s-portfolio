@@ -25,5 +25,5 @@ export const socialMedias: SocialMedias = [
     name: 'zenn',
     href: 'https://zenn.dev/kainari',
     src: '/social-medias/zenn.svg',
-  }
+  },
 ];

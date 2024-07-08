@@ -14,4 +14,4 @@ export const Biography = (args: { data: BiographyData[] }) => {
       </tbody>
     </table>
   );
-}
+};

@@ -43,7 +43,7 @@ export const skills: Skills[] = [
       {
         name: 'SQL',
         exp: '業務1年以上',
-      }
+      },
     ],
   },
   {

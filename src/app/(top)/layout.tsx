@@ -29,4 +29,4 @@ export default ({ children }: { children: React.ReactNode }) => {
       </body>
     </html>
   );
-}
+};

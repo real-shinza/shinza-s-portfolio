@@ -16,5 +16,5 @@ export const licenses: Licenses = [
   {
     date: '2022年4月',
     name: 'Oracle Certified Java Programmer, Silver SE 11 合格',
-  }
+  },
 ];

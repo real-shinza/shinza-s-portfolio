@@ -15,4 +15,4 @@ export const Card = (args: {
       </div>
     </div>
   );
-}
+};

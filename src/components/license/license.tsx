@@ -14,4 +14,4 @@ export const License = (args: { licenses: Licenses }) => {
       </tbody>
     </table>
   );
-}
+};

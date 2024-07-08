@@ -18,4 +18,4 @@ export const SocialMedia = (args: { socialMedia: SocialMediaData }) => {
       </Link>
     </div>
   );
-}
+};

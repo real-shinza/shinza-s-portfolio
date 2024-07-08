@@ -13,5 +13,5 @@ export const Skill = (args: { data: SkillData[] }) => {
         ))}
       </tbody>
     </table>
-  )
-}
+  );
+};

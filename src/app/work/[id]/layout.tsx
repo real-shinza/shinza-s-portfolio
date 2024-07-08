@@ -25,11 +25,11 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
 
 export default ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="ja">
+    <html lang='ja'>
       <body>
-        <GoogleTagManager gtmId="GTM-THB3JD7F"/>
+        <GoogleTagManager gtmId='GTM-THB3JD7F'/>
         {children}
       </body>
     </html>
   );
-}
+};
