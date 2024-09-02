@@ -53,7 +53,7 @@ export default () => {
                 現在は社会人をしながら通信制大学に通っています。<br />
               </p>
             </div>
-            <div>
+            <div className={styles.social_media}>
               {socialMedias.map((data, index) => (
                 <SocialMedia socialMedia={data} key={index} />
               ))}

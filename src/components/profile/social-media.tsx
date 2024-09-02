@@ -6,7 +6,7 @@ import styles from './social-media.module.css';
 export const SocialMedia = (args: { socialMedia: SocialMediaData }) => {
   return (
     <div className={styles.social_media}>
-      <Link className='sns-link' id={args.socialMedia.name} href={args.socialMedia.href} target='_blank'>
+      <Link id={args.socialMedia.name} href={args.socialMedia.href} target='_blank'>
         <div className={styles.image}>
           <Image
             src={args.socialMedia.src}

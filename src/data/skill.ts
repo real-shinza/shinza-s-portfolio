@@ -127,6 +127,10 @@ export const skills: Skills[] = [
         name: 'Vercel',
         exp: '趣味1年未満',
       },
+      {
+        name: 'Amazon EC2',
+        exp: '趣味1年未満',
+      },
     ],
   },
 ];
