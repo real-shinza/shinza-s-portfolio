@@ -1,12 +1,21 @@
 import Link from 'next/link';
 import { Menu } from './header-menu';
+import { LanguageSelector } from './language-selector';
+import {
+  biographies,
+  licenses,
+  profile,
+  skills,
+  works,
+} from '../../data';
+import { GetHlParam } from '../../lib';
 import styles from './header.module.css';
 
 export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.list}>
-        <Link className={styles.link} href='/'>
+        <Link className={styles.link} href={{ pathname: '/', query: GetHlParam() }}>
           <div className={styles.title}>
             <div className={styles.name}>
               Shinza&#39;s Portfolio
@@ -17,26 +26,29 @@ export const Header = () => {
       <div className={styles.list}>
         <div className={styles.menus}>
           <Menu
-            name='プロフィール'
-            href='/#profile'
+            name={profile.title}
+            hash={profile.id}
           />
           <Menu
-            name='作品'
-            href='/#work'
+            name={works.title}
+            hash={works.id}
           />
           <Menu
-            name='略歴'
-            href='/#biography'
+            name={biographies.title}
+            hash={biographies.id}
           />
           <Menu
-            name='スキル'
-            href='/#skill'
+            name={skills.title}
+            hash={skills.id}
           />
           <Menu
-            name='所有資格'
-            href='/#license'
+            name={licenses.title}
+            hash={licenses.id}
           />
         </div>
+      </div>
+      <div className={styles.selector}>
+        <LanguageSelector />
       </div>
     </header>
   );

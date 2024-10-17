@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { SocialMediaData } from '../../common/type';
+import { SocialMediaEntry } from '../../common/type';
 import styles from './social-media.module.css';
 
-export const SocialMedia = (args: { socialMedia: SocialMediaData }) => {
+export const SocialMedia = (args: { entry: SocialMediaEntry }) => {
   return (
     <div className={styles.social_media}>
-      <Link id={args.socialMedia.name} href={args.socialMedia.href} target='_blank'>
+      <Link id={args.entry.name} href={args.entry.href} target='_blank'>
         <div className={styles.image}>
           <Image
-            src={args.socialMedia.src}
-            alt={args.socialMedia.name}
+            src={args.entry.src}
+            alt={args.entry.name}
             width={32}
             height={32}
           />

@@ -1,14 +1,15 @@
-import { BiographyData } from '../../common/type';
+import { BiographyEntry } from '../../common/type';
+import { GetLocale } from '../../lib';
 import styles from './biography.module.css';
 
-export const Biography = (args: { data: BiographyData[] }) => {
+export const Biography = (args: { entries: BiographyEntry[] }) => {
   return (
     <table className={styles.table}>
       <tbody>
-        {args.data.map((data, index) => (
+        {args.entries.map((entry, index) => (
           <tr key={index}>
-            <td className={styles.date}>{data.date}</td>
-            <td className={styles.description}>{data.description}</td>
+            <td className={styles.date}>{GetLocale(entry.date)}</td>
+            <td className={styles.description}>{GetLocale(entry.description)}</td>
           </tr>
         ))}
       </tbody>

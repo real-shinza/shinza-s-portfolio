@@ -1,7 +1,9 @@
+import { LanguageStrings } from '../../common/type';
+import { GetLocale } from '../../lib';
 import styles from './sub-content.module.css';
 
 export const SubContent = (args: {
-  subtitle: string,
+  subtitle: LanguageStrings,
   isHidden?: boolean,
   children: React.ReactNode,
 }) => {
@@ -9,7 +11,7 @@ export const SubContent = (args: {
   return (
     <div className={styles.sub_content}>
       <h3 className={styles.subtitle}>
-        {args.subtitle}
+        {GetLocale(args.subtitle)}
       </h3>
       {args.children}
     </div>

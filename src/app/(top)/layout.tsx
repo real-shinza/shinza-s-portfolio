@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { GoogleTagManager } from '@next/third-parties/google';
 import '../globals.css';
 
 export function metadata(): Metadata {
@@ -22,11 +21,8 @@ export function metadata(): Metadata {
 
 export default ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang='ja'>
-      <body>
-        <GoogleTagManager gtmId='GTM-THB3JD7F'/>
-        {children}
-      </body>
+    <html>
+      {children}
     </html>
   );
 };

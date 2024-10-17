@@ -1,9 +1,17 @@
-export type BiographyData = {
-  date: string,
-  description: string,
+import { LanguageStrings } from '.';
+
+export type BiographyEntry = {
+  date: LanguageStrings,
+  description: LanguageStrings,
 };
 
-export type Biographies = {
-  subtitle: string,
-  biographies: BiographyData[],
+export type BiographySection = {
+  subtitle: LanguageStrings,
+  entries: BiographyEntry[],
+};
+
+export type BiographyDocument = {
+  id: string,
+  title: LanguageStrings,
+  sections: BiographySection[],
 };

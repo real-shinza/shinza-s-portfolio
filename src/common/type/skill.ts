@@ -1,9 +1,17 @@
-export type SkillData = {
+import { LanguageStrings } from '.';
+
+export type SkillEntry = {
   name: string,
-  exp: string,
+  exp: Number,
 };
 
-export type Skills = {
-  subtitle: string,
-  skills: SkillData[],
-}
+export type SkillSection = {
+  subtitle: LanguageStrings,
+  entries: SkillEntry[],
+};
+
+export type SkillDocument = {
+  id: string,
+  title: LanguageStrings,
+  sections: SkillSection[],
+};

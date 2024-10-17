@@ -13,6 +13,11 @@
   vertical-align: middle;
 }
 
+.selector {
+  float: right;
+  margin-right: 40px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -38,5 +43,5 @@
 }
 
 .menus {
-  margin: auto 20px;
+  margin: auto 15px;
 }

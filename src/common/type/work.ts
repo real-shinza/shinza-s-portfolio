@@ -1,9 +1,11 @@
-export type WorkData = {
+import { LanguageStrings } from '.';
+
+export type WorkEntry = {
   id: string,
-  name: string,
+  name: LanguageStrings,
   image: string,
-  description_short: string,
-  description_long: string,
+  description_short: LanguageStrings,
+  description_long: LanguageStrings,
   skills: string[],
   links?: {
     name: string,
@@ -12,4 +14,13 @@ export type WorkData = {
   }[],
 };
 
-export type Works = WorkData[];
+export type WorkDocument = {
+  id: string,
+  title: LanguageStrings,
+  subtitle: {
+    description: LanguageStrings,
+    skill: LanguageStrings,
+    link: LanguageStrings,
+  },
+  entries: WorkEntry[];
+};

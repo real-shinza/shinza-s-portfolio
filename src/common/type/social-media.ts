@@ -1,7 +1,7 @@
-export type SocialMediaData = {
+export type SocialMediaEntry = {
   name: string,
   src: string,
   href: string,
 };
 
-export type SocialMedias = SocialMediaData[];
+export type SocialMediaSction = SocialMediaEntry[];

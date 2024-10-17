@@ -1,6 +1,12 @@
-export type LicenseData = {
-  date: string,
-  name: string,
+import { LanguageStrings } from '.';
+
+export type LicenseEntry = {
+  date: LanguageStrings,
+  name: LanguageStrings,
 };
 
-export type Licenses = LicenseData[];
+export type LicenseDocument = {
+  id: string,
+  title: LanguageStrings,
+  entries: LicenseEntry[],
+};

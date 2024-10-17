@@ -1,6 +1,6 @@
-import { SocialMedias } from '../common/type';
+import { SocialMediaSction } from '../common/type';
 
-export const socialMedias: SocialMedias = [
+export const socialMedias: SocialMediaSction = [
   {
     name: 'x',
     href: 'https://twitter.com/real_kainari',

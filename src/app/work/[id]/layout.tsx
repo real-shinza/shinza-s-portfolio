@@ -1,11 +1,10 @@
 import type { Metadata } from 'next';
-import { GoogleTagManager } from '@next/third-parties/google';
 import { works } from '../../../data';
 import '../../globals.css';
 
 export function generateMetadata({ params }: { params: { id: string } }): Metadata {
   const id = params.id;
-  const work = works.find(data => data.id === id);
+  const work = works.entries.find(entry => entry.id === id);
   return {
     title: `Shinza\'s Portfolio - ${work?.name}`,
     description: `新佐のポートフォリオ - ${work?.name}`,
@@ -25,11 +24,8 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
 
 export default ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang='ja'>
-      <body>
-        <GoogleTagManager gtmId='GTM-THB3JD7F'/>
-        {children}
-      </body>
+    <html>
+      {children}
     </html>
   );
 };
