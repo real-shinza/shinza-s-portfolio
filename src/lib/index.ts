@@ -1,13 +1,2 @@
-export {
-  inter,
-  notoSansJP,
-  notoSansSC,
-  notoSansTC,
-  notoSansKR,
-  GetFont,
-} from './font';
-export {
-  GetHl,
-  GetHlParam,
-  GetLocale,
-} from './locale';
+export { notoSans, toFont } from './font';
+export { GetLocale } from './locale';

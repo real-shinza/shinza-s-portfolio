@@ -1,23 +1,24 @@
-import Link from 'next/link';
+'use client';
+import { Link } from '../../i18n/routing';
 import { Menu } from './header-menu';
 import { LanguageSelector } from './language-selector';
 import {
-  biographies,
-  licenses,
+  biography,
+  license,
   profile,
-  skills,
-  works,
+  skill,
+  work,
 } from '../../data';
-import { GetHlParam } from '../../lib';
+import { notoSans } from '../../lib';
 import styles from './header.module.css';
 
 export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.list}>
-        <Link className={styles.link} href={{ pathname: '/', query: GetHlParam() }}>
+        <Link className={styles.link} href='/'>
           <div className={styles.title}>
-            <div className={styles.name}>
+            <div className={styles.name} style={notoSans.en.style}>
               Shinza&#39;s Portfolio
             </div>
           </div>
@@ -26,24 +27,24 @@ export const Header = () => {
       <div className={styles.list}>
         <div className={styles.menus}>
           <Menu
-            name={profile.title}
+            title={profile.title}
             hash={profile.id}
           />
           <Menu
-            name={works.title}
-            hash={works.id}
+            title={work.title}
+            hash={work.id}
           />
           <Menu
-            name={biographies.title}
-            hash={biographies.id}
+            title={biography.title}
+            hash={biography.id}
           />
           <Menu
-            name={skills.title}
-            hash={skills.id}
+            title={skill.title}
+            hash={skill.id}
           />
           <Menu
-            name={licenses.title}
-            hash={licenses.id}
+            title={license.title}
+            hash={license.id}
           />
         </div>
       </div>

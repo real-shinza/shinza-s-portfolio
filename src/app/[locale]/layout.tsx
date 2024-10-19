@@ -1,4 +1,8 @@
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
+import { GoogleTagManager } from '@next/third-parties/google';
+import { LanguageType } from '../../common/type';
+import { Header } from '../../components';
+import { notoSans, toFont } from '../../lib';
 import '../globals.css';
 
 export function metadata(): Metadata {
@@ -17,12 +21,22 @@ export function metadata(): Metadata {
       locale: 'ja_JP',
     },
   };
-}
+};
 
-export default ({ children }: { children: React.ReactNode }) => {
+export default ({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) => {
   return (
-    <html>
-      {children}
+    <html lang={params.locale} style={notoSans[toFont[params.locale as LanguageType]].style}>
+      <GoogleTagManager gtmId='GTM-THB3JD7F' />
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 };

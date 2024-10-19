@@ -1,9 +1,10 @@
 export type LanguageStrings = {
-  ja: string,
-  en: string,
-  cn: string,
-  tw: string,
-  ko: string,
+  'ja': string,
+  'en': string,
+  'zh-CN': string,
+  'zh-TW': string,
+  'ko': string,
 };
 
-export type LanguageType = 'ja' | 'en' | 'cn' | 'tw' | 'ko';
+export type LanguageType = 'ja' | 'en' | 'zh-CN' | 'zh-TW' | 'ko';
+export type FontType = 'jp' | 'en' | 'sc' | 'tc' | 'kr';

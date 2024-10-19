@@ -1,6 +1,5 @@
-export { biographies } from './biography';
-export { licenses } from './license';
+export { biography } from './biography';
+export { license } from './license';
 export { profile } from './profile';
-export { skills } from './skill';
-export { socialMedias } from './social-media';
-export { works } from './work';
+export { skill } from './skill';
+export { work } from './work';

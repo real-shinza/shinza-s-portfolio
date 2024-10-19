@@ -1,7 +1,7 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import { Link } from '../../i18n/routing';
 import { WorkEntry } from '../../common/type';
-import { GetHlParam, GetLocale } from '../../lib';
+import { GetLocale } from '../../lib';
 import styles from './work.module.css';
 
 export const Work = (args: { entries: WorkEntry[] }) => {
@@ -9,7 +9,7 @@ export const Work = (args: { entries: WorkEntry[] }) => {
     <>
       {args.entries.map((entry, index) => (
         <div className={styles.work} id={entry.id} key={index}>
-          <Link className={styles.link} href={{ pathname: `/work/${entry.id}`, query: GetHlParam() }}>
+          <Link className={styles.link} href={`/work/${entry.id}`}>
             <div>
               <div className={styles.image}>
                 <Image

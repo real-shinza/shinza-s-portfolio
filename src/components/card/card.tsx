@@ -1,4 +1,6 @@
-import { LanguageStrings } from '../../common/type';
+'use client';
+import { useParams } from 'next/navigation';
+import { LanguageStrings, LanguageType } from '../../common/type';
 import { GetLocale } from '../../lib';
 import styles from './card.module.css';
 
@@ -7,6 +9,7 @@ export const Card = (args: {
   title: LanguageStrings,
   children: React.ReactNode,
 }) => {
+  const params = useParams();
   return (
     <div className={styles.card} id={args.id}>
       <h1 className={styles.title}>

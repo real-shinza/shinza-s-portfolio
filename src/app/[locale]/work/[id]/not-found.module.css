@@ -1,0 +1,9 @@
+.text {
+  font-size: 32px;
+  font-weight: 600;
+  color: #5e5e5e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
