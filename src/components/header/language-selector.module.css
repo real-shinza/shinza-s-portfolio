@@ -4,17 +4,12 @@
 }
 
 .selector {
-  font-size: 18px;
-  font-weight: 600;
-  color: #3d3d3d;
-  font-size: 18px;
   border: none;
   appearance: none;
   outline: none;
 }
 
 .selector:hover {
-  color: #bbbbbb;
   cursor: pointer;
 }
 
@@ -27,12 +22,25 @@
 
 .option {
   margin: 0px 5px;
+}
+
+.option:hover {
+  cursor: pointer;
+}
+
+.country {
+  display: inline-block;
+  border: solid 1px #bbbbbb;
+  border-radius: 50%;
+}
+
+.language {
+  display: inline-block;
   font-size: 18px;
   font-weight: 600;
   color: #3d3d3d;
 }
 
-.option:hover {
+.selector:hover .language, .option:hover .language {
   color: #bbbbbb;
-  cursor: pointer;
 }

@@ -28,19 +28,19 @@ export default () => {
         </div>
         <div className={styles.profile_right}>
           <div className={styles.name}>
-            <div className={styles.main_name} style={notoSans.jp.style}>
+            <div className={styles.main_name} style={notoSans['ja'].style}>
               新佐 佳也
             </div>
-            <div className={styles.sub_name} style={notoSans.en.style}>
+            <div className={styles.sub_name} style={notoSans['en'].style}>
               Shinza Yoshiya
             </div>
-            <div className={styles.sub_name} style={notoSans.jp.style}>
+            <div className={styles.sub_name} style={notoSans['ja'].style}>
               しんざ よしや
             </div>
-            <div className={styles.sub_name} style={notoSans.tc.style}>
+            <div className={styles.sub_name} style={notoSans['zh-TW'].style}>
               新佐 佳也
             </div>
-            <div className={styles.sub_name} style={notoSans.kr.style}>
+            <div className={styles.sub_name} style={notoSans['ko'].style}>
               신자 요시야
             </div>
           </div>

@@ -1,2 +1,2 @@
-export { notoSans, toFont } from './font';
+export { notoSans } from './font';
 export { GetLocale } from './locale';

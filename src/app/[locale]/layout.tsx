@@ -1,8 +1,7 @@
 import { Metadata } from 'next';
 import { GoogleTagManager } from '@next/third-parties/google';
-import { LanguageType } from '../../common/type';
 import { Header } from '../../components';
-import { notoSans, toFont } from '../../lib';
+import { notoSans } from '../../lib';
 import '../globals.css';
 
 export function metadata(): Metadata {
@@ -31,7 +30,7 @@ export default ({
   params: { locale: string };
 }) => {
   return (
-    <html lang={params.locale} style={notoSans[toFont[params.locale as LanguageType]].style}>
+    <html lang={params.locale} style={notoSans[params.locale]?.style}>
       <GoogleTagManager gtmId='GTM-THB3JD7F' />
       <body>
         <Header />

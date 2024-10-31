@@ -1,4 +1,4 @@
-import { ProfileDocument, LanguageType } from '../common/type';
+import { ProfileDocument } from '../common/type';
 
 export const profile: ProfileDocument = {
   id: 'profile',
@@ -23,8 +23,13 @@ export const profile: ProfileDocument = {
       src: '/social-medias/x.svg',
     },
     {
+      name: 'instagram',
+      href: 'https://www.instagram.com/real_kainari',
+      src: '/social-medias/instagram.svg',
+    },
+    {
       name: 'facebook',
-      href: 'https://www.facebook.com/profile.php?id=100011508277452',
+      href: 'https://www.facebook.com/100011508277452',
       src: '/social-medias/facebook.svg',
     },
     {

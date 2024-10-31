@@ -5,16 +5,19 @@
   background-color: #ffffff;
   border-bottom: 3px solid #5e5e5e;
   position: fixed;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   z-index: 10;
 }
 
 .list {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 .selector {
-  float: right;
+  margin-left: auto;
   margin-right: 40px;
 }
 
@@ -23,8 +26,8 @@
 }
 
 .title {
-  width: 350px;
-  height: 65px;
+  width: 250px;
+  height: 60px;
   background-color: #5e5e5e;
   display: table;
 }
@@ -34,7 +37,7 @@
 }
 
 .name {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   color: #ffffff;
   text-align: center;
@@ -44,4 +47,10 @@
 
 .menus {
   margin: auto 15px;
+}
+
+@media (max-width: 768px) {
+  .menus {
+    display: none;
+  }
 }

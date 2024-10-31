@@ -10,7 +10,7 @@ import styles from './page.module.css';
 export default ({ params }: { params: { id: string } }) => {
   const id = params.id;
   const entry = work.entries.find(entry => entry.id === id);
-  if (!entry) notFound();
+  if (!entry) return notFound();
   return (
     <main>
       <Card id={entry.id} title={entry.name}>
@@ -20,6 +20,7 @@ export default ({ params }: { params: { id: string } }) => {
           alt='work image'
           width={384}
           height={384}
+          style={{ width: '100%', height: 'auto', maxWidth: '384px' }}
         />
         <SubContent subtitle={work.subtitle.description}>
           <div className={styles.description} style={{ whiteSpace: 'pre-line' }}>
@@ -36,7 +37,7 @@ export default ({ params }: { params: { id: string } }) => {
           </div>
         </SubContent>
         <SubContent subtitle={work.subtitle.link} isHidden={!entry.links}>
-          {entry.links?.map((link, index) => (
+          {entry.links && entry.links.map((link, index) => (
             <div className={styles.link_button} key={index}>
               <Link className={styles.link} href={link.link} target='_blank'>
                 <button className={styles.button} type='button' style={{ backgroundColor: link.color_code }}>

@@ -71,11 +71,6 @@ export const work: WorkDocument = {
       ],
       links: [
         {
-          name: 'View Site',
-          link: 'https://shinza-s-portfolio.vercel.app/',
-          color_code: '#008000',
-        },
-        {
           name: 'GitHub',
           link: 'https://github.com/real-shinza/shinza-s-portfolio',
           color_code: '#181717',
@@ -83,13 +78,13 @@ export const work: WorkDocument = {
       ],
     },
     {
-      id: 'translate-number-to-LanguageStrings',
+      id: 'translate-number-to-strings',
       name: {
-        'ja': 'Translate number to LanguageStrings',
-        'en': 'Translate number to LanguageStrings',
-        'zh-CN': 'Translate number to LanguageStrings',
-        'zh-TW': 'Translate number to LanguageStrings',
-        'ko': 'Translate number to LanguageStrings',
+        'ja': 'Translate number to strings',
+        'en': 'Translate number to strings',
+        'zh-CN': 'Translate number to strings',
+        'zh-TW': 'Translate number to strings',
+        'ko': 'Translate number to strings',
       },
       image: '/works/translate-number-to-strings.jpg',
       description_short: {

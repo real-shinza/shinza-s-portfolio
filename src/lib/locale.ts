@@ -6,5 +6,3 @@ export function GetLocale(strings: LanguageStrings): string {
   const params = useParams();
   return strings[params.locale as LanguageType];
 }
-
-

@@ -1,7 +1,9 @@
+import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import { useState } from 'react';
 import { useRouter, usePathname } from '../../i18n/routing';
 import { LanguageType } from '../../common/type';
+import { languageData } from '../../data';
 import { notoSans } from '../../lib';
 import styles from './language-selector.module.css';
 
@@ -24,19 +26,38 @@ export const LanguageSelector = () => {
   return (
     <div className={styles.container}>
       <div className={styles.selector} onClick={toggleDropdown}>
-        {locale === 'ja' && '日本語'}
-        {locale === 'en' && 'English'}
-        {locale === 'zh-CN' && '简体中文'}
-        {locale === 'zh-TW' && '繁體中文'}
-        {locale === 'ko' && '한국어'}
+        <Image
+          className={styles.country}
+          src={languageData[locale].src}
+          alt='Country flag'
+          width={16}
+          height={16}
+        />
+        <div className={styles.language}>
+          {languageData[locale].name}
+        </div>
       </div>
       {isOpen && (
         <div className={styles.options}>
-          <div className={styles.option} style={notoSans.jp.style} onClick={() => handleChange('ja')}>日本語</div>
-          <div className={styles.option} style={notoSans.en.style} onClick={() => handleChange('en')}>English</div>
-          <div className={styles.option} style={notoSans.sc.style} onClick={() => handleChange('zh-CN')}>简体中文</div>
-          <div className={styles.option} style={notoSans.tc.style} onClick={() => handleChange('zh-TW')}>繁體中文</div>
-          <div className={styles.option} style={notoSans.kr.style} onClick={() => handleChange('ko')}>한국어</div>
+          {Object.entries(languageData).map((data, index) => (
+            <div
+              className={styles.option}
+              style={notoSans[data[0]].style}
+              onClick={() => handleChange(data[0] as LanguageType)}
+              key={index}
+            >
+              <Image
+                className={styles.country}
+                src={data[1].src}
+                alt='Country flag'
+                width={16}
+                height={16}
+              />
+              <div className={styles.language}>
+                {data[1].name}
+              </div>
+            </div>
+          ))}
         </div>
       )}
     </div>
