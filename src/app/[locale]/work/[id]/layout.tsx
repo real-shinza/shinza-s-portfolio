@@ -1,9 +1,7 @@
 import type { Metadata } from 'next';
 import React from 'react';
-import { GoogleTagManager } from '@next/third-parties/google';
 import { Header } from '../../../../components';
 import { work } from '../../../../data';
-import { notoSans } from '../../../../lib';
 import '../../../globals.css';
 
 export function generateMetadata({ params }: { params: { id: string } }): Metadata {
@@ -28,21 +26,14 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
 
 export default ({
   children,
-  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
 }) => {
 
   return (
-    <html lang={params.locale} style={notoSans[params.locale]?.style}>
-      <GoogleTagManager gtmId='GTM-THB3JD7F' />
-      <React.StrictMode>
-        <body>
-          <Header />
-          {children}
-        </body>
-      </React.StrictMode>
-    </html>
+    <>
+      <Header />
+      {children}
+    </>
   );
 };

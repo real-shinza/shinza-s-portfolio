@@ -1,9 +1,9 @@
-import { LanguageStrings } from '../../common/type';
+import { LocaleStrings } from '../../common/type';
 import { GetLocale } from '../../lib';
 import styles from './sub-content.module.css';
 
 export const SubContent = (args: {
-  subtitle: LanguageStrings,
+  subtitle: LocaleStrings,
   isHidden?: boolean,
   children: React.ReactNode,
 }) => {

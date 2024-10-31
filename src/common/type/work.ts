@@ -1,11 +1,11 @@
-import { LanguageStrings } from '.';
+import { LocaleStrings } from '.';
 
 export type WorkEntry = {
   id: string,
-  name: LanguageStrings,
+  name: LocaleStrings,
   image: string,
-  description_short: LanguageStrings,
-  description_long: LanguageStrings,
+  description_short: LocaleStrings,
+  description_long: LocaleStrings,
   skills: string[],
   links?: {
     name: string,
@@ -16,11 +16,11 @@ export type WorkEntry = {
 
 export type WorkDocument = {
   id: string,
-  title: LanguageStrings,
+  title: LocaleStrings,
   subtitle: {
-    description: LanguageStrings,
-    skill: LanguageStrings,
-    link: LanguageStrings,
+    description: LocaleStrings,
+    skill: LocaleStrings,
+    link: LocaleStrings,
   },
   entries: WorkEntry[];
 };

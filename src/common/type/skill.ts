@@ -1,4 +1,4 @@
-import { LanguageStrings } from '.';
+import { LocaleStrings } from '.';
 
 export type SkillEntry = {
   name: string,
@@ -6,12 +6,12 @@ export type SkillEntry = {
 };
 
 export type SkillSection = {
-  subtitle: LanguageStrings,
+  subtitle: LocaleStrings,
   entries: SkillEntry[],
 };
 
 export type SkillDocument = {
   id: string,
-  title: LanguageStrings,
+  title: LocaleStrings,
   sections: SkillSection[],
 };

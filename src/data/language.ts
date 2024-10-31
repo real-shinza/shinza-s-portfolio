@@ -1,6 +1,6 @@
-import { LanguageData } from '../common/type';
+import { LocaleData } from '../common/type';
 
-export const languageData: LanguageData = {
+export const languageData: LocaleData = {
   'ja': {
     name: '日本語',
     src: '/countries/japan.png',

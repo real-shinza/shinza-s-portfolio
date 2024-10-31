@@ -1,11 +1,11 @@
 'use client';
-import { LanguageStrings } from '../../common/type';
+import { LocaleStrings } from '../../common/type';
 import { GetLocale } from '../../lib';
 import styles from './card.module.css';
 
 export const Card = (args: {
   id: string,
-  title: LanguageStrings,
+  title: LocaleStrings,
   children: React.ReactNode,
 }) => {
   return (

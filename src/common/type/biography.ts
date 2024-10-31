@@ -1,17 +1,17 @@
-import { LanguageStrings } from '.';
+import { LocaleStrings } from '.';
 
 export type BiographyEntry = {
-  date: LanguageStrings,
-  description: LanguageStrings,
+  date: LocaleStrings,
+  description: LocaleStrings,
 };
 
 export type BiographySection = {
-  subtitle: LanguageStrings,
+  subtitle: LocaleStrings,
   entries: BiographyEntry[],
 };
 
 export type BiographyDocument = {
   id: string,
-  title: LanguageStrings,
+  title: LocaleStrings,
   sections: BiographySection[],
 };

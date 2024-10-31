@@ -1,12 +1,12 @@
-import { LanguageStrings } from '.';
+import { LocaleStrings } from '.';
 
 export type LicenseEntry = {
-  date: LanguageStrings,
-  name: LanguageStrings,
+  date: LocaleStrings,
+  name: LocaleStrings,
 };
 
 export type LicenseDocument = {
   id: string,
-  title: LanguageStrings,
+  title: LocaleStrings,
   entries: LicenseEntry[],
 };

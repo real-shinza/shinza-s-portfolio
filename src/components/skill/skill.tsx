@@ -1,9 +1,9 @@
-import { LanguageStrings, SkillEntry } from '../../common/type';
+import { LocaleStrings, SkillEntry } from '../../common/type';
 import { GetLocale } from '../../lib';
 import styles from './skill.module.css';
 
 export const Skill = (args: { entries: SkillEntry[] }) => {
-  const yearStrings: LanguageStrings = { 'ja': '年', 'en': ' years', 'zh-CN': '年', 'zh-TW': '年', 'ko': '년' };
+  const yearStrings: LocaleStrings = { 'ja': '年', 'en': ' years', 'zh-CN': '年', 'zh-TW': '年', 'ko': '년' };
   return (
     <table className={styles.table}>
       <tbody>

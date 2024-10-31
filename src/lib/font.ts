@@ -6,6 +6,7 @@ import {
   Noto_Sans_TC,
   Noto_Sans_KR,
 } from 'next/font/google';
+import { Locale } from '../i18n/routing';
 
 const en = Noto_Sans({ subsets: ['latin'] });
 const jp = Noto_Sans_JP({ subsets: ['latin'] });
@@ -13,7 +14,7 @@ const sc = Noto_Sans_SC({ subsets: ['latin'] });
 const tc = Noto_Sans_TC({ subsets: ['latin'] });
 const kr = Noto_Sans_KR({ subsets: ['latin'] });
 
-export const notoSans: Record<string, NextFont> = {
+export const notoSans: Record<Locale, NextFont> = {
   'en': en,
   'ja': jp,
   'zh-CN': sc,
