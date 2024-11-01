@@ -9,6 +9,13 @@ export const profile: ProfileDocument = {
     'zh-TW': '個人簡介',
     'ko': '프로필',
   },
+  name: {
+    'ja': '新佐 佳也',
+    'en': 'Yoshiya Shinza',
+    'zh-CN': '新佐 佳也',
+    'zh-TW': '新佐 佳也',
+    'ko': '신자 요시야',
+  },
   description: {
     'ja': '2000年(平成12年)生まれ。石川県野々市市出身。\n現在はエンジニアをしながら通信制大学に通っています。',
     'en': 'Born in 2000. From Nonoichi, Ishikawa, Japan.\nI\'m currently working as an engineer while attending a distance learning university.',

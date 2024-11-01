@@ -23,7 +23,7 @@ export const license: LicenseDocument = {
         'en': 'Class 1 Driver\'s License for Ordinary Motor Vehicles',
         'zh-CN': '普通机动车第一类驾驶证',
         'zh-TW': '普通小型車第一類駕照',
-        'ko': '보통자동차 제1종 운전면허',
+        'ko': '제 1종 보통 운전면허',
       },
     },
     {

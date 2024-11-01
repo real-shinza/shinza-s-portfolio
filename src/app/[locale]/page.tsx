@@ -28,8 +28,8 @@ export default () => {
         </div>
         <div className={styles.profile_right}>
           <div className={styles.name}>
-            <div className={styles.main_name} style={notoSans['ja'].style}>
-              新佐 佳也
+            <div className={styles.main_name}>
+              {GetLocale(profile.name)}
             </div>
             <div className={styles.sub_name} style={notoSans['en'].style}>
               Shinza Yoshiya

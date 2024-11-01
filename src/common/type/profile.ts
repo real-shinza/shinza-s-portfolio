@@ -9,6 +9,7 @@ export type SocialMediaEntry = {
 export type ProfileDocument = {
   id: string,
   title: LocaleStrings,
+  name: LocaleStrings,
   description: LocaleStrings,
   social_medias: SocialMediaEntry[]
 };
