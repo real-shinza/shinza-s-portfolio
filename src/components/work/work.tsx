@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Link } from '../../i18n/routing';
 import { WorkEntry } from '../../common/type';
-import { GetLocale } from '../../lib';
+import { GetLocaleString } from '../../lib';
 import styles from './work.module.css';
 
 export const Work = (args: { entries: WorkEntry[] }) => {
@@ -20,10 +20,10 @@ export const Work = (args: { entries: WorkEntry[] }) => {
                 />
               </div>
               <h3 className={styles.name}>
-                {GetLocale(entry.name)}
+                {GetLocaleString(entry.name)}
               </h3>
               <div className={styles.description}>
-                {GetLocale(entry.description_short)}
+                {GetLocaleString(entry.description_short)}
               </div>
             </div>
           </Link>

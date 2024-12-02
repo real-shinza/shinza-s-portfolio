@@ -1,4 +1,4 @@
-import { LocaleStrings } from './locale';
+import { LocaleStrings, LocaleNames } from './locale';
 
 export type SocialMediaEntry = {
   name: string,
@@ -9,7 +9,7 @@ export type SocialMediaEntry = {
 export type ProfileDocument = {
   id: string,
   title: LocaleStrings,
-  name: LocaleStrings,
+  name: LocaleNames,
   description: LocaleStrings,
   social_medias: SocialMediaEntry[]
 };

@@ -10,11 +10,39 @@ export const profile: ProfileDocument = {
     'ko': '프로필',
   },
   name: {
-    'ja': '新佐 佳也',
-    'en': 'Yoshiya Shinza',
-    'zh-CN': '新佐 佳也',
-    'zh-TW': '新佐 佳也',
-    'ko': '신자 요시야',
+    'ja': {
+      main: '新佐 佳也',
+      sub: [
+        'しんざ よしや',
+        'Shinza Yoshiya',
+      ],
+    },
+    'en': {
+      main: 'Yoshiya Shinza',
+      sub: [],
+    },
+    'zh-CN': {
+      main: '新佐 佳也',
+      sub: [
+        'Xīnzuǒ	Jiāyě',
+        'Shinza Yoshiya',
+      ],
+    },
+    'zh-TW': {
+      main: '新佐 佳也',
+      sub: [
+        'Xīnzuǒ	Jiāyě',
+        'Hsinzuǒ Chiayeh',
+        'Shinza Yoshiya',
+      ],
+    },
+    'ko': {
+      main: '신자 요시야',
+      sub: [
+        'Shinza Yoshiya',
+        '新佐 佳也',
+      ],
+    },
   },
   description: {
     'ja': '2000年(平成12年)生まれ。石川県野々市市出身。\n現在はエンジニアをしながら通信制大学に通っています。',
@@ -28,11 +56,6 @@ export const profile: ProfileDocument = {
       name: 'x',
       href: 'https://twitter.com/real_kainari',
       src: '/social-medias/x.svg',
-    },
-    {
-      name: 'instagram',
-      href: 'https://www.instagram.com/real_kainari',
-      src: '/social-medias/instagram.svg',
     },
     {
       name: 'facebook',
@@ -53,6 +76,11 @@ export const profile: ProfileDocument = {
       name: 'zenn',
       href: 'https://zenn.dev/kainari',
       src: '/social-medias/zenn.svg',
+    },
+    {
+      name: 'upwork',
+      href: 'https://www.upwork.com/freelancers/~01181747d915301af8?mp_source=share',
+      src: '/social-medias/upwork.svg',
     },
   ],
 };

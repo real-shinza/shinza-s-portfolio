@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Card, SubContent } from '../../../../components';
 import { work } from '../../../../data';
-import { GetLocale } from '../../../../lib';
+import { GetLocaleString } from '../../../../lib';
 import styles from './page.module.css';
 
 export default ({ params }: { params: { id: string } }) => {
@@ -24,7 +24,7 @@ export default ({ params }: { params: { id: string } }) => {
         />
         <SubContent subtitle={work.subtitle.description}>
           <div className={styles.description} style={{ whiteSpace: 'pre-line' }}>
-            {GetLocale(entry.description_long)}
+            {GetLocaleString(entry.description_long)}
           </div>
         </SubContent>
         <SubContent subtitle={work.subtitle.skill}>

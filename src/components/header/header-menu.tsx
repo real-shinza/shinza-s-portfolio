@@ -1,6 +1,6 @@
 import { Link } from '../../i18n/routing';
 import { LocaleStrings } from '../../common/type';
-import { GetLocale } from '../../lib';
+import { GetLocaleString } from '../../lib';
 import styles from './header-menu.module.css';
 
 export const Menu = (args: {
@@ -11,7 +11,7 @@ export const Menu = (args: {
     <div className={styles.menu}>
       <Link className={styles.link} href={{ pathname: '/', hash: args.hash }}>
         <div className={styles.name}>
-          {GetLocale(args.title)}
+          {GetLocaleString(args.title)}
         </div>
       </Link>
     </div>

@@ -16,7 +16,7 @@ import {
   skill,
   work,
 } from '../../data';
-import { notoSans, GetLocale } from '../../lib';
+import { GetLocaleString, GetLocaleNanes } from '../../lib';
 import styles from './page.module.css';
 
 export default () => {
@@ -29,24 +29,17 @@ export default () => {
         <div className={styles.profile_right}>
           <div className={styles.name}>
             <div className={styles.main_name}>
-              {GetLocale(profile.name)}
+              {GetLocaleNanes(profile.name).main}
             </div>
-            <div className={styles.sub_name} style={notoSans['en'].style}>
-              Shinza Yoshiya
-            </div>
-            <div className={styles.sub_name} style={notoSans['ja'].style}>
-              しんざ よしや
-            </div>
-            <div className={styles.sub_name} style={notoSans['zh-TW'].style}>
-              新佐 佳也
-            </div>
-            <div className={styles.sub_name} style={notoSans['ko'].style}>
-              신자 요시야
-            </div>
+            {GetLocaleNanes(profile.name).sub.map((name, index) => (
+              <div className={styles.sub_name} key={index}>
+                {name}
+              </div>
+            ))}
           </div>
           <div className={styles.description}>
             <p style={{ whiteSpace: 'pre-line' }}>
-              {GetLocale(profile.description)}
+              {GetLocaleString(profile.description)}
             </p>
           </div>
           <div className={styles.social_media}>

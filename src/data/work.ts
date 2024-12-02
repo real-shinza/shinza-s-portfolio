@@ -115,7 +115,7 @@ export const work: WorkDocument = {
         {
           name: 'View Site',
           link: 'https://real-shinza.github.io/translate-number-to-strings/',
-          color_code: '#008000',
+          color_code: '#52c2d0',
         },
         {
           name: 'GitHub',
@@ -158,7 +158,7 @@ export const work: WorkDocument = {
         {
           name: 'View Site',
           link: 'https://unityroom.com/games/towa-2d',
-          color_code: '#008000',
+          color_code: '#007bff',
         },
         {
           name: 'GitHub',

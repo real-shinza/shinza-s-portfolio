@@ -1,6 +1,6 @@
 'use client';
 import { LocaleStrings } from '../../common/type';
-import { GetLocale } from '../../lib';
+import { GetLocaleString } from '../../lib';
 import styles from './card.module.css';
 
 export const Card = (args: {
@@ -11,7 +11,7 @@ export const Card = (args: {
   return (
     <div className={styles.card} id={args.id}>
       <h1 className={styles.title}>
-        {GetLocale(args.title)}
+        {GetLocaleString(args.title)}
       </h1>
       <div className={styles.content}>
         {args.children}

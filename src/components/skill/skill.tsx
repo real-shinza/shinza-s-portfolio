@@ -1,5 +1,5 @@
 import { LocaleStrings, SkillEntry } from '../../common/type';
-import { GetLocale } from '../../lib';
+import { GetLocaleString } from '../../lib';
 import styles from './skill.module.css';
 
 export const Skill = (args: { entries: SkillEntry[] }) => {
@@ -10,7 +10,7 @@ export const Skill = (args: { entries: SkillEntry[] }) => {
         {args.entries.map((entry, index) => (
           <tr key={index}>
             <td className={styles.name}>{entry.name}</td>
-            <td className={styles.exp}>{`${entry.exp}${GetLocale(yearStrings)}`}</td>
+            <td className={styles.exp}>{`${entry.exp}${GetLocaleString(yearStrings)}`}</td>
           </tr>
         ))}
       </tbody>

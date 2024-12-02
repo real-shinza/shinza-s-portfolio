@@ -1,5 +1,5 @@
 import { LocaleStrings } from '../../common/type';
-import { GetLocale } from '../../lib';
+import { GetLocaleString } from '../../lib';
 import styles from './sub-content.module.css';
 
 export const SubContent = (args: {
@@ -11,7 +11,7 @@ export const SubContent = (args: {
   return (
     <div className={styles.sub_content}>
       <h3 className={styles.subtitle}>
-        {GetLocale(args.subtitle)}
+        {GetLocaleString(args.subtitle)}
       </h3>
       {args.children}
     </div>
