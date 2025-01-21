@@ -67,6 +67,22 @@ export const biography: BiographyDocument = {
             'ko': '도쿄도 통신제 대학교 정보학부',
           },
         },
+        {
+          date: {
+            'ja': '2025年3月 ~ 2025年5月',
+            'en': 'Mar. 2025 ~ May 2025',
+            'zh-CN': '2025年3月 ~ 2025年5月',
+            'zh-TW': '2025年3月 ~ 2025年5月',
+            'ko': '2025년 3월 ~ 2025년 5월',
+          },
+          description: {
+            'ja': '台湾台北市 大学中国語教学センター',
+            'en': 'Mandarin Training Center, University in Taipei, Taiwan',
+            'zh-CN': '台湾台北市 大学汉语教学中心',
+            'zh-TW': '台灣台北市 大學國語教學中心',
+            'ko': '대만 타이베이시 대학교 중국어교육원',
+          },
+        },
       ],
     },
     {
@@ -80,11 +96,11 @@ export const biography: BiographyDocument = {
       entries: [
         {
           date: {
-            'ja': '2021年4月 ~ 現在',
-            'en': 'Apr. 2021 ~ Now',
-            'zh-CN': '2021年4月 ~ 现在',
-            'zh-TW': '2021年4月 ~ 現在',
-            'ko': '2021년 4월 ~ 현재',
+            'ja': '2021年4月 ~ 2025年3月',
+            'en': 'Apr. 2021 ~ Mar. 2025',
+            'zh-CN': '2021年4月 ~ 2025年3月',
+            'zh-TW': '2021年4月 ~ 2025年3月',
+            'ko': '2021년 4월 ~ 2025년 3월',
           },
           description: {
             'ja': '東京都 SES企業',
@@ -160,11 +176,11 @@ export const biography: BiographyDocument = {
         },
         {
           date: {
-            'ja': '2023年9月 ~ 現在',
-            'en': 'Sep. 2023 ~ Now',
-            'zh-CN': '2023年9月 ~ 现在',
-            'zh-TW': '2023年9月 ~ 現在',
-            'ko': '2023년 9월 ~ 현재',
+            'ja': '2023年9月 ~ 2025年2月',
+            'en': 'Sep. 2023 ~ Feb. 2025',
+            'zh-CN': '2023年9月 ~ 2025年2月',
+            'zh-TW': '2023年9月 ~ 2025年2月',
+            'ko': '2023년 9월 ~ 2025년 2월',
           },
           description: {
             'ja': 'AI営業ボット開発業務',

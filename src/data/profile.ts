@@ -31,7 +31,6 @@ export const profile: ProfileDocument = {
     'zh-TW': {
       main: '新佐 佳也',
       sub: [
-        'Xīnzuǒ	Jiāyě',
         'Hsinzuǒ Chiayeh',
         'Shinza Yoshiya',
       ],

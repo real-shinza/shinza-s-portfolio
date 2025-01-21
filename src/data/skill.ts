@@ -164,6 +164,26 @@ export const skill: SkillDocument = {
           name: 'Amazon EC2',
           exp: 1,
         },
+        {
+          name: 'Amazon S3',
+          exp: 1,
+        },
+        {
+          name: 'Amazon EventBridge',
+          exp: 1,
+        },
+        {
+          name: 'Amazon CloudWatch',
+          exp: 1,
+        },
+        {
+          name: 'AWS WAF',
+          exp: 1,
+        },
+        {
+          name: 'AWS CDK',
+          exp: 1,
+        },
       ],
     },
   ],
