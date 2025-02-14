@@ -53,18 +53,13 @@ export const profile: ProfileDocument = {
   social_medias: [
     {
       name: 'x',
-      href: 'https://twitter.com/real_kainari',
+      href: 'https://x.com/real_kainari',
       src: '/social-medias/x.svg',
     },
     {
       name: 'facebook',
       href: 'https://www.facebook.com/100011508277452',
       src: '/social-medias/facebook.svg',
-    },
-    {
-      name: 'discord',
-      href: 'https://discord.com/users/671696583481360385',
-      src: '/social-medias/discord.svg',
     },
     {
       name: 'github',
@@ -75,6 +70,11 @@ export const profile: ProfileDocument = {
       name: 'zenn',
       href: 'https://zenn.dev/kainari',
       src: '/social-medias/zenn.svg',
+    },
+    {
+      name: 'wantedly',
+      href: 'https://www.wantedly.com/id/real_shinza',
+      src: '/social-medias/wantedly.svg',
     },
     {
       name: 'upwork',
