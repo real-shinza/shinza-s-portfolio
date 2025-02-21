@@ -133,6 +133,10 @@ export const skill: SkillDocument = {
           exp: 3,
         },
         {
+          name: 'Google Tag Manager',
+          exp: 2,
+        },
+        {
           name: 'Firebase Hosting',
           exp: 1,
         },

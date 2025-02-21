@@ -44,11 +44,11 @@ export const profile: ProfileDocument = {
     },
   },
   description: {
-    'ja': '2000年(平成12年)生まれ。石川県野々市市出身。\n現在はエンジニアをしながら通信制大学に通っています。',
-    'en': 'Born in 2000. From Nonoichi, Ishikawa, Japan.\nI\'m currently working as an engineer while attending a distance learning university.',
-    'zh-CN': '2000年出生。来自日本石川县野野市市。\n现在我一边当工程师，一边就读于远程教育大学。',
-    'zh-TW': '2000年(民國89年)出生。來自日本石川縣野野市市。\n現在我一邊當工程師，一邊就讀於遠程教育大學。',
-    'ko': '2000년생. 일본 이시카와현 노노이치시 출신.\n현재 엔지니어로 일하면서 통신제 대학에 다니고 있습니다.',
+    'ja': '2000年(平成12年)生まれ。石川県野々市市出身。\n現在は台湾でワーキングホリデーをしながら日本の通信制大学に通っています。',
+    'en': 'Born in 2000. From Nonoichi, Ishikawa, Japan.\nI\'m currently in Taiwan on a working holiday while attending a Japanese online university.',
+    'zh-CN': '2000年出生。来自日本石川县野野市市。\n现在我一边在台湾打工度假，一边就读于日本的远程教育大学。',
+    'zh-TW': '2000年(民國89年)出生。來自日本石川縣野野市市。\n現在我一邊在台灣打工度假，一邊就讀於日本的遠程教育大學。',
+    'ko': '2000년생. 일본 이시카와현 노노이치시 출신.\n현재 대만에서 워킹홀리데이를 하면서 일본의 통신제 대학을 다니고 있습니다.',
   },
   social_medias: [
     {
@@ -78,7 +78,7 @@ export const profile: ProfileDocument = {
     },
     {
       name: 'upwork',
-      href: 'https://www.upwork.com/freelancers/~01181747d915301af8?mp_source=share',
+      href: 'https://www.upwork.com/freelancers/~01181747d915301af8',
       src: '/social-medias/upwork.svg',
     },
   ],
