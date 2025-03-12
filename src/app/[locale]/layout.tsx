@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { GoogleTagManager } from '@next/third-parties/google';
+import { NextIntlClientProvider } from 'next-intl';
 import { Locale } from '../../i18n/routing';
 import { Header } from '../../components';
 import { notoSans } from '../../lib';
@@ -34,8 +35,10 @@ export default ({
     <html lang={params.locale} style={notoSans[params.locale].style}>
       <GoogleTagManager gtmId='GTM-THB3JD7F' />
       <body>
-        <Header />
-        {children}
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -7,3 +7,17 @@
 
 # 使用素材
 [Simple Icons](https://simpleicons.org/)  
+
+# コマンド
+```bash
+npm run dev
+```
+```bash
+npm run build
+```
+```bash
+npm run start
+```
+```bash
+npm run lint
+```

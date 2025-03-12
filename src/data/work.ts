@@ -229,10 +229,12 @@ export const work: WorkDocument = {
       },
       skills: [
         'C#',
-        'Unity 2022',
+        'Unity 6',
         'Odin Inspector and Serializer',
+        'Easy Save 3',
         'GitHub',
         'Visual Studio 2022',
+        'Notion',
       ],
     },
     {
@@ -261,10 +263,12 @@ export const work: WorkDocument = {
       },
       skills: [
         'C#',
-        'Unity 2022',
+        'Unity 6',
         'Odin Inspector and Serializer',
+        'Easy Save 3',
         'GitHub',
         'Visual Studio 2022',
+        'Notion',
       ],
     },
   ],

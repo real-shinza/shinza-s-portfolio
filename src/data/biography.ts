@@ -190,6 +190,22 @@ export const biography: BiographyDocument = {
             'ko': 'AI 영업 봇 개발 업무',
           },
         },
+        {
+          date: {
+            'ja': '2025年3月 ~ 現在',
+            'en': 'Mar. 2025 ~ Now',
+            'zh-CN': '2025年3月 ~ 现在',
+            'zh-TW': '2025年3月 ~ 現在',
+            'ko': '2025년 3월 ~ 현재',
+          },
+          description: {
+            'ja': 'ランディングページ制作及び広告計測業務',
+            'en': 'Landing Page Production and Advertisement Measurement',
+            'zh-CN': '落地页制作及广告测量业务',
+            'zh-TW': '登陸頁製作及廣告測量業務',
+            'ko': '랜딩 페이지 제작 및 광고 측정 업무',
+          },
+        },
       ],
     },
   ],

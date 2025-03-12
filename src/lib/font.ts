@@ -1,4 +1,3 @@
-import { NextFont } from '@next/font';
 import {
   Noto_Sans,
   Noto_Sans_JP,
@@ -6,13 +5,14 @@ import {
   Noto_Sans_TC,
   Noto_Sans_KR,
 } from 'next/font/google';
+import { NextFont } from 'next/dist/compiled/@next/font/dist/types';
 import { Locale } from '../i18n/routing';
 
-const en = Noto_Sans({ subsets: ['latin'] });
-const jp = Noto_Sans_JP({ subsets: ['latin'] });
-const sc = Noto_Sans_SC({ subsets: ['latin'] });
-const tc = Noto_Sans_TC({ subsets: ['latin'] });
-const kr = Noto_Sans_KR({ subsets: ['latin'] });
+const en = Noto_Sans({ subsets: ['latin'], display: 'swap' });
+const jp = Noto_Sans_JP({ subsets: ['latin'], display: 'swap' });
+const sc = Noto_Sans_SC({ subsets: ['latin'], display: 'swap' });
+const tc = Noto_Sans_TC({ subsets: ['latin'], display: 'swap' });
+const kr = Noto_Sans_KR({ subsets: ['latin'], display: 'swap' });
 
 export const notoSans: Record<Locale, NextFont> = {
   'en': en,
