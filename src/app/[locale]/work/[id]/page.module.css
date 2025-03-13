@@ -18,12 +18,6 @@
   display: inline-block;
 }
 
-.link {
-  width: auto;
-  height: auto;
-  text-decoration: none;
-}
-
 .button {
   width: 210px;
   height: 60px;

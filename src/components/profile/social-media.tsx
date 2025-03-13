@@ -6,7 +6,7 @@ import styles from './social-media.module.css';
 export const SocialMedia = (args: { entry: SocialMediaEntry }) => {
   return (
     <div className={styles.social_media}>
-      <Link id={args.entry.name} href={args.entry.href} target='_blank'>
+      <Link id={args.entry.name} className='social-media' href={args.entry.href} target='_blank'>
         <div className={styles.image}>
           <Image
             src={args.entry.src}
