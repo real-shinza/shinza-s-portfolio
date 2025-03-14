@@ -1,6 +1,7 @@
 import { LocaleStrings } from '.';
 
 export type BiographyEntry = {
+  id: string,
   date: LocaleStrings,
   description: LocaleStrings,
 };
