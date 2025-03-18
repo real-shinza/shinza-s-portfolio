@@ -1,3 +1,4 @@
+import { Link } from '../../i18n/routing';
 import { BiographyEntry } from '../../common/type';
 import { GetLocaleString } from '../../lib';
 import styles from './biography.module.css';
@@ -8,8 +9,14 @@ export const Biography = (args: { entries: BiographyEntry[] }) => {
       <tbody>
         {args.entries.map((entry, index) => (
           <tr key={index}>
-            <td className={styles.date}>{GetLocaleString(entry.date)}</td>
-            <td className={styles.description}>{GetLocaleString(entry.description)}</td>
+            <td className={styles.period}>
+              {GetLocaleString(entry.period)}
+            </td>
+            <td className={styles.name}>
+              <Link className={styles.link} href={`/biography/${entry.id}`}>
+                {GetLocaleString(entry.name)}
+              </Link>
+            </td>
           </tr>
         ))}
       </tbody>

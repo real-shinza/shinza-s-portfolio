@@ -3,7 +3,7 @@
   border-spacing: 0px 7px;
 }
 
-.date, .description {
+.period, .name {
   padding: 0px 5px;
   vertical-align: middle;
   text-align: left;
@@ -11,12 +11,21 @@
   color: #5e5e5e;
 }
 
-.date {
+.period {
   width: 170px;
   font-size: 14px;
 }
 
-.description {
+.name {
   width: 350px;
   font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+.link:hover {
+  color: #bbbbbb;
 }

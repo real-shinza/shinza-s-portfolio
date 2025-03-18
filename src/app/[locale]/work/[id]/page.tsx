@@ -23,7 +23,7 @@ export default ({ params }: { params: { id: string } }) => {
           style={{ width: '100%', height: 'auto', maxWidth: '384px' }}
         />
         <SubContent subtitle={work.subtitle.description}>
-          <div className={styles.description} style={{ whiteSpace: 'pre-line' }}>
+          <div className={styles.description}>
             {GetLocaleString(entry.description_long)}
           </div>
         </SubContent>

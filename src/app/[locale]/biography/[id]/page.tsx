@@ -1,6 +1,6 @@
 'use client';
 import { notFound } from 'next/navigation';
-import { Card } from '../../../../components';
+import { Card, SubContent } from '../../../../components';
 import { biography } from '../../../../data';
 import { GetLocaleString } from '../../../../lib';
 import styles from './page.module.css';
@@ -11,8 +11,26 @@ export default ({ params }: { params: { id: string } }) => {
   if (!entry) return notFound();
   return (
     <main>
-      <Card id={entry.id} title={entry.description}>
-        <></>
+      <Card id={entry.id} title={entry.name}>
+        <SubContent subtitle={biography.subtitle.period}>
+          <div className={styles.period}>
+            {GetLocaleString(entry.period)}
+          </div>
+        </SubContent>
+        <SubContent subtitle={biography.subtitle.detail}>
+          <div className={styles.detail}>
+            {GetLocaleString(entry.detail)}
+          </div>
+        </SubContent>
+        <SubContent subtitle={biography.subtitle.skill} isHidden={!entry.skills}>
+          <div className={styles.skills}>
+            {entry.skills && entry.skills.map((skill, index) => (
+              <div key={index}>
+                {skill}
+              </div>
+            ))}
+          </div>
+        </SubContent>
       </Card>
     </main>
   );

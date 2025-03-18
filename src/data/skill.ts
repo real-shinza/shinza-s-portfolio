@@ -32,6 +32,14 @@ export const skill: SkillDocument = {
           exp: 4,
         },
         {
+          name: 'JavaScript',
+          exp: 3,
+        },
+        {
+          name: 'TypeScript',
+          exp: 2,
+        },
+        {
           name: 'Java',
           exp: 2,
         },
@@ -40,12 +48,8 @@ export const skill: SkillDocument = {
           exp: 2,
         },
         {
-          name: 'JavaScript',
-          exp: 3,
-        },
-        {
-          name: 'TypeScript',
-          exp: 2,
+          name: 'Dart',
+          exp: 1,
         },
         {
           name: 'HTML5',
@@ -75,6 +79,10 @@ export const skill: SkillDocument = {
           exp: 2,
         },
         {
+          name: 'DirectX12',
+          exp: 1,
+        },
+        {
           name: 'Unity',
           exp: 4,
         },
@@ -93,6 +101,10 @@ export const skill: SkillDocument = {
         {
           name: 'Next.js',
           exp: 2,
+        },
+        {
+          name: 'Flutter',
+          exp: 1,
         },
       ],
     },
@@ -169,6 +181,10 @@ export const skill: SkillDocument = {
           exp: 1,
         },
         {
+          name: 'Amazon ECS',
+          exp: 1,
+        },
+        {
           name: 'Amazon S3',
           exp: 1,
         },
@@ -187,6 +203,45 @@ export const skill: SkillDocument = {
         {
           name: 'AWS CDK',
           exp: 1,
+        },
+        {
+          name: 'WordPress',
+          exp: 1,
+        },
+      ],
+    },
+    {
+      subtitle: {
+        'ja': 'その他ツール',
+        'en': 'Other tools',
+        'zh-CN': '其他工具',
+        'zh-TW': '其他工具',
+        'ko': '기타 도구',
+      },
+      entries: [
+        {
+          name: 'Slack',
+          exp: 3,
+        },
+        {
+          name: 'Discord',
+          exp: 5,
+        },
+        {
+          name: 'Notion',
+          exp: 2,
+        },
+        {
+          name: 'Miro',
+          exp: 1,
+        },
+        {
+          name: 'Figma',
+          exp: 1,
+        },
+        {
+          name: 'ChatGPT',
+          exp: 2,
         },
       ],
     },

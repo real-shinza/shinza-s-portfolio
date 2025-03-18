@@ -76,10 +76,5 @@ export const profile: ProfileDocument = {
       href: 'https://www.wantedly.com/id/real_shinza',
       src: '/social-medias/wantedly.svg',
     },
-    {
-      name: 'upwork',
-      href: 'https://www.upwork.com/freelancers/~01181747d915301af8',
-      src: '/social-medias/upwork.svg',
-    },
   ],
 };

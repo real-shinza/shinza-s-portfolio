@@ -31,7 +31,6 @@ export default ({
 }: {
   children: React.ReactNode;
 }) => {
-
   return (
     <>
       <Header />
