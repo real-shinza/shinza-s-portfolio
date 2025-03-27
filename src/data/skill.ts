@@ -60,6 +60,10 @@ export const skill: SkillDocument = {
           exp: 2,
         },
         {
+          name: 'PHP',
+          exp: 1,
+        },
+        {
           name: 'SQL',
           exp: 2,
         },

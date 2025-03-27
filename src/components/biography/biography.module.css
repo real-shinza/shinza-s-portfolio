@@ -29,3 +29,20 @@
 .link:hover {
   color: #bbbbbb;
 }
+
+.image {
+  display: inline-block;
+  vertical-align: middle;
+  mask-image: url('/links/link.svg');
+  mask-repeat: no-repeat;
+  mask-position: center center;
+  mask-size: contain;
+  width: 16px;
+  height:	16px;
+  margin-left: 5px;
+  background-color: #5e5e5e;
+}
+
+.link:hover .image {
+  background-color: #bbbbbb;
+}

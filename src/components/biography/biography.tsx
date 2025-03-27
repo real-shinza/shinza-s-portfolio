@@ -15,6 +15,9 @@ export const Biography = (args: { entries: BiographyEntry[] }) => {
             <td className={styles.name}>
               <Link className={styles.link} href={`/biography/${entry.id}`}>
                 {GetLocaleString(entry.name)}
+                <span>
+                  <div className={styles.image}></div>
+                </span>
               </Link>
             </td>
           </tr>

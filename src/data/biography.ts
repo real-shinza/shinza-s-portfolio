@@ -343,6 +343,7 @@ export const biography: BiographyDocument = {
           skills: [
             'HTML5',
             'CSS3',
+            'PHP',
             'WordPress',
             'Git',
             'GitHub',
