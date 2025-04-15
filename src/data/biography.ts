@@ -44,7 +44,7 @@ export const biography: BiographyDocument = {
       entries: [
         {
           id: 'kanazawa-hokuryo-high-school',
-          period:  {
+          period: {
             'ja': '2016年4月 ~ 2019年3月',
             'en': 'Apr. 2016 ~ Mar. 2019',
             'zh-CN': '2016年4月 ~ 2019年3月',
@@ -68,7 +68,7 @@ export const biography: BiographyDocument = {
         },
         {
           id: 'human-academy-kyoto-campus',
-          period:  {
+          period: {
             'ja': '2019年4月 ~ 2021年3月',
             'en': 'Apr. 2019 ~ Mar. 2021',
             'zh-CN': '2019年4月 ~ 2021年3月',
@@ -101,7 +101,7 @@ export const biography: BiographyDocument = {
         },
         {
           id: 'tokyo-online-university',
-          period:  {
+          period: {
             'ja': '2022年4月 ~ 現在',
             'en': 'Apr. 2022 ~ Now',
             'zh-CN': '2022年4月 ~ 现在',
@@ -140,7 +140,7 @@ export const biography: BiographyDocument = {
       entries: [
         {
           id: 'ses-company',
-          period:  {
+          period: {
             'ja': '2021年4月 ~ 2025年3月',
             'en': 'Apr. 2021 ~ Mar. 2025',
             'zh-CN': '2021年4月 ~ 2025年3月',
@@ -170,7 +170,7 @@ export const biography: BiographyDocument = {
         },
         {
           id: 'driver-system-integration-testing',
-          period:  {
+          period: {
             'ja': '2021年7月 ~ 2021年10月',
             'en': 'Jul. 2021 ~ Oct. 2021',
             'zh-CN': '2021年7月 ~ 2021年10月',
@@ -200,7 +200,7 @@ export const biography: BiographyDocument = {
         },
         {
           id: 'business-tool-integration-testing',
-          period:  {
+          period: {
             'ja': '2021年11月',
             'en': 'Nov. 2021',
             'zh-CN': '2021年11月',
@@ -215,11 +215,11 @@ export const biography: BiographyDocument = {
             'ko': '업무 도구 통합 테스트 수행 업무',
           },
           detail: {
-            'ja': '',
-            'en': '',
-            'zh-CN': '',
-            'zh-TW': '',
-            'ko': '',
+            'ja': 'コミュニケーションツールの結合テストに従事し、仕様通りの動作確認を担当。\n作成されたテスト項目に従ってテストを実施し、バグの発見・報告、品質改善のためのフィードバック を行う。',
+            'en': 'Engaged in integration testing of a communication tool and was responsible for verifying behavior according to specifications.\nConducted tests based on predefined test cases, identified and reported bugs, and provided feedback for quality improvement.',
+            'zh-CN': '参与通信工具的集成测试，负责根据规格确认其行为是否符合预期。\n按照制定的测试项进行测试，发现并报告漏洞，提供改进质量的反馈。',
+            'zh-TW': '參與通訊工具的整合測試，負責確認其是否符合規格要求。\n依照撰寫好的測試項目進行測試，發現並回報錯誤，並提供品質改善的回饋。',
+            'ko': '커뮤니케이션 도구의 통합 테스트에 참여하여, 명세서에 따른 동작 확인을 담당함.\n작성된 테스트 항목에 따라 테스트를 수행하고, 버그를 발견 및 보고하며 품질 개선을 위한 피드백을 제공함.',
           },
           skills: [
             'Excel',
@@ -228,7 +228,7 @@ export const biography: BiographyDocument = {
         },
         {
           id: 'technical-support-for-web-advertising',
-          period:  {
+          period: {
             'ja': '2021年12月 ~ 2023年8月',
             'en': 'Dec. 2021 ~ Aug. 2023',
             'zh-CN': '2021年12月 ~ 2023年8月',
@@ -272,7 +272,7 @@ export const biography: BiographyDocument = {
         },
         {
           id: 'ai-sales-bot-development',
-          period:  {
+          period: {
             'ja': '2023年9月 ~ 2025年2月',
             'en': 'Sep. 2023 ~ Feb. 2025',
             'zh-CN': '2023年9月 ~ 2025年2月',
@@ -287,11 +287,11 @@ export const biography: BiographyDocument = {
             'ko': 'AI 영업 봇 개발 업무',
           },
           detail: {
-            'ja': 'インターネット広告代理店におけるAI営業Slackボットの開発・保守業務。\nプロダクトマネージャーが作成した要件定義書を基にデザインドキュメントの作成、コーディング、レビュー、QA、デプロイを行いました。',
-            'en': 'Developed and maintained an AI sales Slack bot for an internet advertising agency.\nBased on the requirements document created by the product manager, I created design documents, coded, reviewed, performed QA, and deployed the system.',
-            'zh-CN': '在互联网广告代理公司负责AI销售Slack机器人开发与维护。\n根据产品经理编写的需求定义文档，进行设计文档的编写、编码、代码审核、QA测试和部署。',
-            'zh-TW': '在網路廣告代理公司負責AI銷售Slack機器人的開發與維護。\n根據產品經理撰寫的需求定義文件，進行設計文件的編寫、程式撰寫、代碼審查、QA測試及部署。',
-            'ko': '인터넷 광고 대행사에서 AI 영업 Slack 봇의 개발 및 유지보수를 담당.\n프로덕트 매니저가 작성한 요구 사항 정의서를 기반으로 디자인 문서 작성, 코딩, 코드 리뷰, QA, 배포를 수행했습니다.',
+            'ja': 'インターネット広告代理店におけるAI営業Slackボットの開発・保守業務。\nプロダクトマネージャーが作成した要件定義書を基にデザインドキュメントの作成、コーディング、レビュー、QA、デプロイを行いました。\n開発手法はアジャイルです。',
+            'en': 'Developed and maintained an AI sales Slack bot for an online advertising agency.\nCreated design documents, performed coding, code reviews, QA, and deployment based on the requirement specifications provided by the product manager.\nUsed an agile development methodology.',
+            'zh-CN': '在互联网广告代理公司中开发和维护AI销售Slack机器人。\n根据产品经理编写的需求文档进行设计文档编写、编码、代码审查、质量保证和部署。\n开发方法采用敏捷模式。',
+            'zh-TW': '在網路廣告代理公司中負責開發與維護AI業務用Slack機器人。\n根據產品經理撰寫的需求說明書進行設計文件撰寫、程式編寫、代碼審查、QA與部署。\n採用了敏捷式開發方法。',
+            'ko': '인터넷 광고 대행사에서 AI 영업 Slack 봇의 개발 및 유지보수를 수행함.\n프로덕트 매니저가 작성한 요구사항 명세서를 바탕으로 설계 문서 작성, 코딩, 코드 리뷰, QA, 배포를 진행함.\n개발 방식은 애자일 방법론을 사용함.',
           },
           skills: [
             'TypeScript',
@@ -310,6 +310,8 @@ export const biography: BiographyDocument = {
             'Google Drive API',
             'Git',
             'GitHub',
+            'GitHub Actions',
+            'GitHub Copilot',
             'Docker',
             'Datadog',
             'Slack',
@@ -319,7 +321,7 @@ export const biography: BiographyDocument = {
         },
         {
           id: 'landing-page-production',
-          period:  {
+          period: {
             'ja': '2025年3月 ~ 現在',
             'en': 'Mar. 2025 ~ Now',
             'zh-CN': '2025年3月 ~ 现在',
@@ -334,11 +336,11 @@ export const biography: BiographyDocument = {
             'ko': '랜딩 페이지 제작 및 광고 측정 업무',
           },
           detail: {
-            'ja': 'ランディングページの作成と計測を業務委託として対応。',
-            'en': 'Handled the creation and tracking of landing pages as a contracted project.',
-            'zh-CN': '以外包形式负责落地页的制作与数据监测。',
-            'zh-TW': '以外包形式負責落地頁的製作與數據監測。',
-            'ko': '외주 계약으로 랜딩 페이지 제작 및 측정을 담당.',
+            'ja': 'ランディングページの作成と計測を業務委託として対応。\nコードのバージョン管理が行えていないプロジェクトにはGitを導入。\n既存のGitHubリポジトリの運用ルールの制定、GitHub Actionsを用いた自動化の設定。ローカル環境での開発のためにDockerの導入。',
+            'en': 'Handled the creation and tracking of landing pages as a subcontracted task.\nIntroduced Git for projects that lacked version control.\nEstablished operation rules for existing GitHub repositories and set up automation using GitHub Actions. Introduced Docker for local development environments.',
+            'zh-CN': '以外包形式负责落地页的制作与分析。\n为未进行代码版本管理的项目引入了Git。\n制定了现有GitHub仓库的运维规则，并通过GitHub Actions设置了自动化流程。为本地开发环境引入了Docker。',
+            'zh-TW': '以外包形式負責登陸頁的製作與成效追蹤。\n為沒有進行版本控制的專案導入Git。\n制定現有GitHub儲存庫的管理規範，並使用GitHub Actions設置自動化流程。為了本地開發導入了Docker。',
+            'ko': '랜딩 페이지 제작 및 측정을 외주로 수행함.\n버전 관리가 되지 않은 프로젝트에는 Git을 도입.\n기존 GitHub 저장소의 운영 규칙을 수립하고, GitHub Actions를 활용한 자동화를 설정함. 로컬 개발 환경을 위해 Docker를 도입함.',
           },
           skills: [
             'HTML5',
@@ -347,6 +349,9 @@ export const biography: BiographyDocument = {
             'WordPress',
             'Git',
             'GitHub',
+            'GitHub Actions',
+            'Docker',
+            'Devin AI',
             'Google Tag Manager',
             'Google Analytics',
             'Slack',
