@@ -1,13 +1,30 @@
+.works {
+  margin: 10px 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .works {
+    margin: 10px 0;
+  }
+}
+
 .work {
-  margin: 20px;
   width: 180px;
-  display: inline-block;
   vertical-align: top;
-  border-bottom: 1px solid #bbbbbb;
   transition: transform .2s ease;
 }
 
-.work:hover {
+.scaleWrap {
+  display: inline-block;
+  border-bottom: 1px solid #bbbbbb;
+  transition: transform 0.2s ease;
+}
+
+.scaleWrap:hover {
   transform: scale(1.05);
 }
 

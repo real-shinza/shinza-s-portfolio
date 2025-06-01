@@ -17,6 +17,11 @@
 }
 
 .content {
-  margin: 10px auto;
-  width: min(100%, 800px);
+  margin: 10px 50px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin: 10px auto;
+  }
 }

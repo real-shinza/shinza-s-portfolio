@@ -23,29 +23,29 @@ export default () => {
   return (
     <main>
       <Card id={profile.id} title={profile.title}>
-        <div className={styles.profile_left}>
+        <div className={styles.profile}>
           <ProfileImage />
-        </div>
-        <div className={styles.profile_right}>
-          <div className={styles.name}>
-            <div className={styles.main_name}>
-              {GetLocaleNanes(profile.name).main}
-            </div>
-            {GetLocaleNanes(profile.name).sub.map((name, index) => (
-              <div className={styles.sub_name} key={index}>
-                {name}
+          <div className={styles.profile_about}>
+            <div className={styles.name}>
+              <div className={styles.main_name}>
+                {GetLocaleNanes(profile.name).main}
               </div>
-            ))}
-          </div>
-          <div className={styles.description}>
-            <p style={{ whiteSpace: 'pre-line' }}>
-              {GetLocaleString(profile.description)}
-            </p>
-          </div>
-          <div className={styles.social_media}>
-            {profile.social_medias.map((entry, index) => (
-              <SocialMedia entry={entry} key={index} />
-            ))}
+              {GetLocaleNanes(profile.name).sub.map((name, index) => (
+                <div className={styles.sub_name} key={index}>
+                  {name}
+                </div>
+              ))}
+            </div>
+            <div className={styles.description}>
+              <p style={{ whiteSpace: 'pre-line' }}>
+                {GetLocaleString(profile.description)}
+              </p>
+            </div>
+            <div className={styles.social_media}>
+              {profile.social_medias.map((entry, index) => (
+                <SocialMedia entry={entry} key={index} />
+              ))}
+            </div>
           </div>
         </div>
       </Card>

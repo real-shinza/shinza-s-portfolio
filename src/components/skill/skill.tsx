@@ -14,15 +14,13 @@ export const Skill = (args: { entries: SkillEntry[] }) => {
     return GetLocaleString(yearStrings);
   };
   return (
-    <table className={styles.table}>
-      <tbody>
-        {args.entries.map((entry, index) => (
-          <tr key={index}>
-            <td className={styles.name}>{entry.name}</td>
-            <td className={styles.exp}>{GatExp(entry.exp)}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+    <div className={styles.table}>
+      {args.entries.map((entry, index) => (
+        <div className={styles.skill} key={index}>
+          <div className={styles.name}>{entry.name}</div>
+          <div className={styles.exp}>{GatExp(entry.exp)}</div>
+        </div>
+      ))}
+    </div>
   );
 };

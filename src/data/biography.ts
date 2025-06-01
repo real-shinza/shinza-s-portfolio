@@ -322,11 +322,11 @@ export const biography: BiographyDocument = {
         {
           id: 'landing-page-production',
           period: {
-            'ja': '2025年3月 ~ 現在',
-            'en': 'Mar. 2025 ~ Now',
-            'zh-CN': '2025年3月 ~ 现在',
-            'zh-TW': '2025年3月 ~ 現在',
-            'ko': '2025년 3월 ~ 현재',
+            'ja': '2025年3月 ~ 2025年5月',
+            'en': 'Mar. 2025 ~ May 2025',
+            'zh-CN': '2025年3月 ~ 2025年5月',
+            'zh-TW': '2025年3月 ~ 2025年5月',
+            'ko': '2025년 3월 ~ 2025년 5월',
           },
           name: {
             'ja': 'ランディングページ制作及び広告計測業務',

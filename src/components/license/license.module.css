@@ -1,13 +1,41 @@
 .table {
   margin: 10px auto;
-  text-align: left;
 }
 
-.date, .name {
+.license {
+  display: flex;
+  justify-content: center;
   text-align: left;
-  padding: 0px 5px;
+  gap: 2px 15px;
+  text-align: left;
   font-size: 20px;
   font-weight: 600;
   color: #5e5e5e;
   vertical-align: top;
+}
+
+.date {
+  width: 110px;
+}
+
+.name {
+  width: 450px;
+}
+
+@media (max-width: 768px) {
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 0;
+    margin: 0 15px;
+  }
+
+  .license {
+    flex-flow: column;
+    justify-content: flex-start;
+  }
+
+  .date, .name {
+    width: auto;
+  }
 }

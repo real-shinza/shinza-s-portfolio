@@ -15,16 +15,16 @@ import styles from './header.module.css';
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.list}>
+      <div>
         <Link className={styles.link} href='/'>
-          <div className={styles.title}>
-            <div className={styles.name} style={notoSans.en.style}>
+          <div className={styles.title}style={notoSans.en.style}>
+            <div className={styles.name}>
               Shinza&#39;s Portfolio
             </div>
           </div>
         </Link>
       </div>
-      <div className={styles.list}>
+      <div>
         <div className={styles.menus}>
           <Menu
             title={profile.title}
@@ -48,7 +48,7 @@ export const Header = () => {
           />
         </div>
       </div>
-      <div className={styles.selector}>
+      <div>
         <LanguageSelector />
       </div>
     </header>

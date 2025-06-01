@@ -1,6 +1,6 @@
 .container {
+  width: 90px;
   display: inline-block;
-  margin: 10px;
 }
 
 .selector {

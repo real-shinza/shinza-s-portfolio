@@ -2,22 +2,24 @@
   margin: 5px auto;
 }
 
-.table td {
-  padding: 0px 5px;
-  text-align: left;
+.skill {
+  display: flex;
+  justify-content: center;
 }
 
 .name {
   width: 200px;
   vertical-align: top;
+  text-align: left;
   font-size: 18px;
   font-weight: 600;
   color: #5e5e5e;
 }
 
 .exp {
-  width: 75px;
+  width: 55px;
   vertical-align: middle;
+  text-align: left;
   font-size: 14px;
   font-weight: 600;
   color: #5e5e5e;
