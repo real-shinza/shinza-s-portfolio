@@ -1,9 +1,11 @@
 .container {
-  width: 90px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .selector {
+  width: 90px;
   border: none;
   appearance: none;
   outline: none;
@@ -14,6 +16,8 @@
 }
 
 .options {
+  width: 120px;
+  top: 80%;
   position: absolute;
   background-color: #ffffff;
   border: 1px solid #bbbbbb;

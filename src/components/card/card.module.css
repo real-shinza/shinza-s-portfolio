@@ -9,6 +9,7 @@
   text-align: center;
   background-color: #ffffff;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  scroll-margin-top: 90px;
 }
 
 .title {
