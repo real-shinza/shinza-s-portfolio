@@ -1,6 +1,6 @@
 'use client';
 import { notFound } from 'next/navigation';
-import { Card, SubContent } from '../../../../components';
+import { Card, SubContent, SkillTag } from '../../../../components';
 import { biography } from '../../../../data';
 import { GetLocaleString } from '../../../../lib';
 import styles from './page.module.css';
@@ -23,13 +23,7 @@ export default ({ params }: { params: { id: string } }) => {
           </div>
         </SubContent>
         <SubContent subtitle={biography.subtitle.skill} isHidden={!entry.skills}>
-          <div className={styles.skills}>
-            {entry.skills && entry.skills.map((skill, index) => (
-              <div key={index}>
-                {skill}
-              </div>
-            ))}
-          </div>
+          <SkillTag skills={entry.skills} />
         </SubContent>
       </Card>
     </main>

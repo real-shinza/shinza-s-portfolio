@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Card, SubContent } from '../../../../components';
+import { Card, SubContent, SkillTag } from '../../../../components';
 import { work } from '../../../../data';
 import { GetLocaleString } from '../../../../lib';
 import styles from './page.module.css';
@@ -28,13 +28,7 @@ export default ({ params }: { params: { id: string } }) => {
           </div>
         </SubContent>
         <SubContent subtitle={work.subtitle.skill}>
-          <div className={styles.skills}>
-            {entry.skills.map((skill, index) => (
-              <div key={index}>
-                {skill}
-              </div>
-            ))}
-          </div>
+          <SkillTag skills={entry.skills} />
         </SubContent>
         <SubContent subtitle={work.subtitle.link} isHidden={!entry.links}>
           {entry.links && entry.links.map((link, index) => (
