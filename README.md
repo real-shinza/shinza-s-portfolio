@@ -7,6 +7,7 @@
 
 # 使用素材
 [Simple Icons](https://simpleicons.org/)  
+[FreeSozai](https://freesozai.jp/)  
 
 # コマンド
 ```bash

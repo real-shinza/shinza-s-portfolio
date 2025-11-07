@@ -1,11 +1,11 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .selector {
-  width: 90px;
+  width: 95px;
   border: none;
   appearance: none;
   outline: none;
@@ -16,7 +16,7 @@
 }
 
 .options {
-  width: 120px;
+  width: 110px;
   top: 80%;
   position: absolute;
   background-color: #ffffff;
@@ -25,7 +25,7 @@
 }
 
 .option {
-  margin: 0px 5px;
+  margin: 0px 6.8px;
 }
 
 .option:hover {
@@ -35,7 +35,6 @@
 .country {
   display: inline-block;
   border: solid 1px #bbbbbb;
-  border-radius: 50%;
 }
 
 .language {

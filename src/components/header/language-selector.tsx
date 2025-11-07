@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useParams } from 'next/navigation';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Locale, useRouter, usePathname } from '../../i18n/routing';
 import { languageData } from '../../data';
 import { notoSans } from '../../lib';
@@ -13,6 +13,8 @@ export const LanguageSelector = () => {
   const locale = params.locale as Locale;
   const [isOpen, setIsOpen] = useState(false);
 
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
@@ -22,15 +24,33 @@ export const LanguageSelector = () => {
     router.replace(pathname, { locale: selectedLang, scroll: false });
   };
 
+  const handleClickOutside = (event: MouseEvent) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpen]);
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} ref={dropdownRef}>
       <div className={styles.selector} onClick={toggleDropdown}>
         <Image
           className={styles.country}
           src={languageData[locale].src}
           alt='Country flag'
-          width={16}
-          height={16}
+          width={21}
+          height={14}
         />
         <div className={styles.language}>
           {languageData[locale].name}
@@ -49,8 +69,8 @@ export const LanguageSelector = () => {
                 className={styles.country}
                 src={data[1].src}
                 alt='Country flag'
-                width={16}
-                height={16}
+                width={21}
+                height={14}
               />
               <div className={styles.language}>
                 {data[1].name}

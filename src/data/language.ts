@@ -3,22 +3,22 @@ import { LocaleData } from '../common/type';
 export const languageData: LocaleData = {
   'ja': {
     name: '日本語',
-    src: '/countries/japan.png',
+    src: '/countries/jp.svg',
   },
   'en': {
     name: 'English',
-    src: '/countries/united_kingdom.png',
+    src: '/countries/uk.svg',
   },
   'zh-CN': {
     name: '简体中文',
-    src: '/countries/china.png',
+    src: '/countries/cn.svg',
   },
   'zh-TW': {
     name: '繁體中文',
-    src: '/countries/taiwan.png',
+    src: '/countries/tw.svg',
   },
   'ko': {
     name: '한국어',
-    src: '/countries/korea.png',
+    src: '/countries/kr.svg',
   },
 };
