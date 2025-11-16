@@ -1,3 +1,4 @@
+import dedent from 'ts-dedent';
 import { ProfileDocument } from '../common/type';
 
 export const profile: ProfileDocument = {
@@ -44,11 +45,31 @@ export const profile: ProfileDocument = {
     },
   },
   description: {
-    'ja': '2000年(平成12年)生まれ。石川県野々市市出身。\n技術的向上を目的に様々な学習をしています。\n趣味でゲームを作っています。',
-    'en': 'Born in 2000. From Nonoichi, Ishikawa, Japan.\nI\'m studying various things with the aim of improving my technical skills.\nI make games as a hobby.',
-    'zh-CN': '2000年出生。来自日本石川县野野市市。\n为了提升技术，我在进行各种学习。\n我在做游戏当作兴趣。',
-    'zh-TW': '2000年(民國89年)出生。來自日本石川縣野野市市。\n為了提升技術，我在進行各種學習。\n我在做遊戲當作興趣。',
-    'ko': '2000년생. 일본 이시카와현 노노이치시 출신.\n기술적 향상을 목표로 다양한 학습을 하고 있습니다.\n취미로 게임을 만들고 있습니다.',
+    'ja': dedent(`
+      2000年(平成12年)生まれ。石川県野々市市出身。
+      技術的向上を目的に様々な学習をしています。
+      趣味でゲームを作っています。
+    `),
+    'en': dedent(`
+      Born in 2000. From Nonoichi, Ishikawa, Japan.
+      I'm studying various things with the aim of improving my technical skills.
+      I make games as a hobby.
+    `),
+    'zh-CN': dedent(`
+      2000年出生。来自日本石川县野野市市。
+      为了提升技术，我在进行各种学习。
+      我在做游戏当作兴趣。
+    `),
+    'zh-TW': dedent(`
+      2000年(民國89年)出生。來自日本石川縣野野市市。
+      為了提升技術，我在進行各種學習。
+      我在做遊戲當作興趣。
+    `),
+    'ko': dedent(`
+      2000년생. 일본 이시카와현 노노이치시 출신.
+      기술적 향상을 목표로 다양한 학습을 하고 있습니다.
+      취미로 게임을 만들고 있습니다.
+    `),
   },
   social_medias: [
     {

@@ -1,3 +1,4 @@
+import dedent from 'ts-dedent';
 import { BiographyDocument } from '../common/type';
 
 export const biography: BiographyDocument = {
@@ -57,13 +58,22 @@ export const biography: BiographyDocument = {
             'zh-CN': '石川县立金泽北陵高级中学 综合学科',
             'zh-TW': '石川縣立金澤北陵高級中學 綜合學科',
             'ko': '이시카와 현립 가나자와 호쿠료 고등학교 종합학과',
-          },
-          detail: {
-            'ja': '工業コースで溶接、旋盤、製図、プログラミングなどを学習していました。',
-            'en': 'I studied welding, lathe work, drafting, and programming in an industrial course.',
-            'zh-CN': '我在工业课程中学习了焊接、车床、制图和编程等。',
-            'zh-TW': '我在工業課程中學習了焊接、車床、製圖和程式設計等。',
-            'ko': '산업 과정에서 용접, 선반, 제도, 프로그래밍 등을 배웠습니다.',
+          },detail: {
+            'ja': dedent(`
+              工業コースで溶接、旋盤、製図、プログラミングなどを学習していました。
+            `),
+            'en': dedent(`
+              I studied welding, lathe work, drafting, and programming in an industrial course.
+            `),
+            'zh-CN': dedent(`
+              我在工业课程中学习了焊接、车床、制图和编程等。
+            `),
+            'zh-TW': dedent(`
+              我在工業課程中學習了焊接、車床、製圖和程式設計等。
+              `),
+            'ko': dedent(`
+              산업 과정에서 용접, 선반, 제도, 프로그래밍 등을 배웠습니다.
+              `),
           },
         },
         {
@@ -83,11 +93,31 @@ export const biography: BiographyDocument = {
             'ko': '종합학원 휴먼 아카데미 교토 캠퍼스 프로그래머 전공',
           },
           detail: {
-            'ja': '主に C / C++ を使用したゲームプログラミングとアルゴリズムについて学習し、DirectX9 を用いた2D/3D描画、入力処理、音声出力処理の実装を学習しました。\nまた、デザイン専攻の学生も交えて、複数人でのチーム開発を行いゲーム制作を行いました。\n個人的にも Unity と C# を学び、ゲーム開発の基礎とゲームロジックの設計について理解を深めました。',
-            'en': 'I mainly studied game programming and algorithms using C / C++ and learned how to implement 2D/3D rendering, input processing, and audio output processing using DirectX9.\nI also worked on game development in a team with design-major students.\nIndividually, I learned Unity and C# to deepen my understanding of game development fundamentals and game logic design.',
-            'zh-CN': '我主要学习了使用 C / C++ 进行游戏编程和算法，并学习了如何使用 DirectX9 实现 2D/3D 渲染、输入处理和音频输出处理。\n此外，我还与设计专业的学生一起进行团队开发，共同制作游戏。\n个人方面，我也学习了 Unity 和 C#，加深了对游戏开发基础和游戏逻辑设计的理解。',
-            'zh-TW': '我主要學習了使用 C / C++ 進行遊戲程式設計和演算法，並學習了如何使用 DirectX9 實現 2D/3D 繪圖、輸入處理和音效輸出處理。\n此外，我還與設計專業的學生一起進行團隊開發，共同製作遊戲。\n個人方面，我也學習了 Unity 和 C#，加深了對遊戲開發基礎和遊戲邏輯設計的理解。',
-            'ko': '주로 C / C++ 를 사용한 게임 프로그래밍과 알고리즘을 학습하며 DirectX9 를 이용한 2D/3D 렌더링, 입력 처리, 오디오 출력 처리를 구현하는 방법을 배웠습니다.\n또한, 디자인 전공 학생들과 함께 팀 개발을 진행하며 게임을 제작했습니다.\n개인적으로도 Unity 와 C# 을 학습하여 게임 개발의 기초와 게임 로직 설계에 대한 이해를 깊이었습니다.',
+            'ja': dedent(`
+              主にC/C++を使用したゲームプログラミングを学習し、DirectX9を用いた2D/3D描画、入力処理、音声出力処理の実装について学ぶ。
+              デザイン専攻の学生を加えた7人でのチーム開発も経験しました。
+              個人的にもUnity C#を学び、ゲーム開発の基礎とゲームロジックの設計について理解を深める。
+            `),
+            'en': dedent(`
+              Studied game programming mainly using C and C++, learning how to implement 2D/3D rendering, input handling, and audio output with DirectX9.
+              Also experienced team development with seven members, including students majoring in design.
+              Additionally, I studied Unity C# on my own to deepen my understanding of game development fundamentals and game logic design.
+            `),
+            'zh-CN': dedent(`
+              主要学习使用C/C++进行游戏编程，并学习使用DirectX9实现2D/3D渲染、输入处理和音频输出。
+              也有与包含设计专业学生在内的七人团队进行开发的经验。
+              个人也自学了Unity C#，加深了对游戏开发基础和游戏逻辑设计的理解。
+            `),
+            'zh-TW': dedent(`
+              主要學習使用C/C++進行遊戲程式，並學習使用DirectX9實作2D/3D繪圖、輸入處理與音訊輸出。
+              也有與包含設計專攻學生在內的七人團隊一起開發的經驗。
+              個人也自學了Unity C#，加深了對遊戲開發基礎與遊戲邏輯設計的理解。
+            `),
+            'ko': dedent(`
+              주로 C/C++를 사용한 게임 프로그래밍을 학습하며, DirectX9를 활용한 2D/3D 렌더링, 입력 처리, 음성 출력 구현에 대해 배웠습니다.
+              디자인 전공 학생을 포함한 7명 팀으로 개발한 경험도 있습니다.
+              개인적으로도 Unity C#을 학습하여 게임 개발의 기초와 게임 로직 설계에 대한 이해를 깊게 했습니다.
+            `),
           },
           skills: [
             'C',
@@ -116,11 +146,31 @@ export const biography: BiographyDocument = {
             'ko': '도쿄통신대학 정보매니지먼트학부',
           },
           detail: {
-            'ja': '正社員として働きながら通信制大学に在学。\nプログラミングの基礎、セキュリティの概念、ネットワーク、データベースについて学んでいます。',
-            'en': 'I am enrolled in a distance learning university while working as a full-time employee.\nI am studying the fundamentals of programming, security concepts, networking, and databases.',
-            'zh-CN': '在全职工作的同时，就读于远程教育大学。\n学习编程基础、安全概念、网络和数据库。',
-            'zh-TW': '在全職工作的同時，就讀於遠距教學大學。\n學習程式設計基礎、安全概念、網路和資料庫。',
-            'ko': '정규직으로 근무하면서 사이버 대학에 재학 중입니다.\n프로그래밍 기초, 보안 개념, 네트워크 및 데이터베이스를 공부하고 있습니다.',
+            'ja': dedent(`
+              通信制大学。2026年3月卒業見込み。
+              正社員として勤務しながら在学。
+              プログラミングの基礎、セキュリティの概念、ネットワーク、データベースなどについて学んでいます。
+            `),
+            'en': dedent(`
+              Distance learning university. Expected to graduate in March 2026.
+              Enrolled while working full-time.
+              Studying programming fundamentals, security concepts, networking, databases, and related fields.
+            `),
+            'zh-CN': dedent(`
+              就读于通信制大学，预计于2026年3月毕业。
+              一边全职工作一边在学习。
+              学习编程基础、安全概念、网络、数据库等内容。
+            `),
+            'zh-TW': dedent(`
+              就讀於通訊制大學，預計於2026年3月畢業。
+              一邊全職工作一邊在學習。
+              學習程式基礎、安全概念、網路、資料庫等內容。
+            `),
+            'ko': dedent(`
+              통신제 대학교 재학 중이며, 2026년 3월 졸업 예정.
+              정규직으로 근무하면서 학업을 병행하고 있습니다.
+              프로그래밍 기초, 보안 개념, 네트워크, 데이터베이스 등을 공부하고 있습니다.
+            `),
           },
           skills: [
             'Java',
@@ -135,7 +185,7 @@ export const biography: BiographyDocument = {
         'en': 'Work experience',
         'zh-CN': '职业经历',
         'zh-TW': '職歷',
-        'ko': '직력',
+        'ko': '경력',
       },
       entries: [
         {
@@ -149,17 +199,42 @@ export const biography: BiographyDocument = {
           },
           name: {
             'ja': '東京都内の某SES企業',
-            'en': 'A Certain SES Company in Tokyo',
-            'zh-CN': '东京都内某SES公司',
-            'zh-TW': '東京都內某SES公司',
-            'ko': '도쿄도 내의 특정 SES 기업',
+            'en': 'A certain IT outsourcing company in Tokyo',
+            'zh-CN': '东京都内的某IT外包公司',
+            'zh-TW': '東京都內的某IT外包公司',
+            'ko': '도쿄도 내의 어느 IT 아웃소싱 회사',
           },
           detail: {
-            'ja': '21新卒として入社。\n2022年11月全社表彰。\n2023年7月主任に昇格。\n2024年7月主査に昇格。',
-            'en': 'Joined the company as a new graduate in 2021.\nCompany-wide award in November 2022.\nPromoted to Senior Staff in July 2023.\nPromoted to Chief Staff in July 2024.',
-            'zh-CN': '作为2021届应届毕业生入职。\n2022年11月获得全公司表彰。\n2023年7月晋升为主任。\n2024年7月晋升为主査。',
-            'zh-TW': '作為2021屆應屆畢業生入職。\n2022年11月獲得全公司表揚。\n2023年7月晉升為主任。\n2024年7月晉升為主查。',
-            'ko': '2021년 신입 사원으로 입사.\n2022년 11월 전사 표창.\n2023년 7월 주임으로 승진.\n2024년 7월 주사로 승진.',
+            'ja': dedent(`
+              21新卒として入社。
+              2022年11月全社表彰。
+              2023年7月主任に昇格。
+              2024年7月主査に昇格。
+            `),
+            'en': dedent(`
+              Joined the company as a new graduate in 2021.
+              Company-wide award in November 2022.
+              Promoted to Senior Staff in July 2023.
+              Promoted to Chief Staff in July 2024.
+            `),
+            'zh-CN': (`
+              作为2021届应届毕业生入职。
+              2022年11月获得全公司表彰。
+              2023年7月晋升为主任。
+              2024年7月晋升为主查。
+            `),
+            'zh-TW': dedent(`
+              作為2021屆應屆畢業生入職。
+              2022年11月獲得全公司表揚。
+              2023年7月晉升為主任。
+              2024年7月晉升為主查。
+            `),
+            'ko': dedent(`
+              2021년 신입 사원으로 입사.
+              2022년 11월 전사 표창.
+              2023년 7월 주임으로 승진.
+              2024년 7월 주사로 승진.
+            `),
           },
           skills: [
             'Java',
@@ -185,11 +260,26 @@ export const biography: BiographyDocument = {
             'ko': '드라이버 시스템 통합 테스트 수행 업무',
           },
           detail: {
-            'ja': '自社開発のWebアプリとAndroidアプリの結合テストに参画し、品質向上を担当。\n主にテストシナリオの作成・テスト管理・品質管理シートの作成を担当し、納品まで対応。',
-            'en': 'Participated in the integration testing of in-house developed Web and Android applications, focusing on quality improvement.\nMainly responsible for creating test scenarios, test management, and preparing quality control sheets, ensuring completion up to delivery.',
-            'zh-CN': '参与公司自主开发的Web应用和Android应用的集成测试，负责质量提升。\n主要负责编写测试场景、测试管理以及质量管理表的制作，并跟进至交付。',
-            'zh-TW': '參與公司自主開發的Web應用和Android應用的整合測試，負責提升品質。\n主要負責編寫測試場景、測試管理以及品質管理表的製作，並跟進至交付。',
-            'ko': '자사 개발 Web 애플리케이션과 Android 애플리케이션의 통합 테스트에 참여하여 품질 향상을 담당.\n주로 테스트 시나리오 작성, 테스트 관리, 품질 관리 시트 작성 업무를 맡아 납품까지 대응.',
+            'ja': dedent(`
+              自社開発のWebアプリとAndroidアプリの結合テストに参画し、品質向上を担当。
+              主にテストシナリオの作成・テスト管理・品質管理シートの作成を担当し、納品まで対応。
+            `),
+            'en': (`
+              Participated in the integration testing of in-house developed Web and Android applications, focusing on quality improvement.
+              Mainly responsible for creating test scenarios, test management, and preparing quality control sheets, ensuring completion up to delivery.
+            `),
+            'zh-CN': (`
+              参与公司自主开发的Web应用和Android应用的集成测试，负责质量提升。
+              主要负责编写测试场景、测试管理以及质量管理表的制作，并跟进至交付。
+            `),
+            'zh-TW': dedent(`
+              參與公司自主開發的Web應用和Android應用的整合測試，負責提升品質。
+              主要負責編寫測試場景、測試管理以及品質管理表的製作，並跟進至交付。
+            `),
+            'ko':dedent(`
+              자사 개발 Web 애플리케이션과 Android 애플리케이션의 통합 테스트에 참여하여 품질 향상을 담당.
+              주로 테스트 시나리오 작성, 테스트 관리, 품질 관리 시트 작성 업무를 맡아 납품까지 대응.
+            `),
           },
           skills: [
             'Android',
@@ -215,11 +305,26 @@ export const biography: BiographyDocument = {
             'ko': '업무 도구 통합 테스트 수행 업무',
           },
           detail: {
-            'ja': 'コミュニケーションツールの結合テストに従事し、仕様通りの動作確認を担当。\n作成されたテスト項目に従ってテストを実施し、バグの発見・報告、品質改善のためのフィードバック を行う。',
-            'en': 'Engaged in integration testing of a communication tool and was responsible for verifying behavior according to specifications.\nConducted tests based on predefined test cases, identified and reported bugs, and provided feedback for quality improvement.',
-            'zh-CN': '参与通信工具的集成测试，负责根据规格确认其行为是否符合预期。\n按照制定的测试项进行测试，发现并报告漏洞，提供改进质量的反馈。',
-            'zh-TW': '參與通訊工具的整合測試，負責確認其是否符合規格要求。\n依照撰寫好的測試項目進行測試，發現並回報錯誤，並提供品質改善的回饋。',
-            'ko': '커뮤니케이션 도구의 통합 테스트에 참여하여, 명세서에 따른 동작 확인을 담당함.\n작성된 테스트 항목에 따라 테스트를 수행하고, 버그를 발견 및 보고하며 품질 개선을 위한 피드백을 제공함.',
+            'ja': dedent(`
+              コミュニケーションツールの結合テストに従事し、仕様通りの動作確認を担当。
+              作成されたテスト項目に従ってテストを実施し、バグの発見・報告、品質改善のためのフィードバックを行う。
+            `),
+            'en': dedent(`
+              Engaged in integration testing of a communication tool and was responsible for verifying behavior according to specifications.
+              Conducted tests based on predefined test cases, identified and reported bugs, and provided feedback for quality improvement.
+            `),
+            'zh-CN': dedent(`
+              负责通信工具的集成测试，确认系统是否按照规格正常运行。
+              根据已编写的测试项执行测试，进行缺陷的发现与报告，并提供反馈以提升质量。
+            `),
+            'zh-TW': dedent(`
+              負責通訊工具的整合測試，確認系統是否依照規格正常運作。
+              依照已編寫的測試項目執行測試，進行缺陷發現與回報，並提供回饋以提升品質。
+            `),
+            'ko': dedent(`
+              커뮤니케이션 도구의 통합 테스트에 참여하여, 명세서에 따른 동작 확인을 담당함.
+              작성된 테스트 항목에 따라 테스트를 수행하고, 버그를 발견 및 보고하며 품질 개선을 위한 피드백을 제공함.
+            `),
           },
           skills: [
             'Excel',
@@ -243,11 +348,71 @@ export const biography: BiographyDocument = {
             'ko': 'Web 광고 기술 지원 업무',
           },
           detail: {
-            'ja': 'タグマネージャーのGoogle Tag Managerを用いて、Google、Yahoo、Meta、LINEなどの様々な広告計測タグの設定をJavaScriptで行いました。\nスプレッドシートなどで管理して行っている業務などを半自動化させ業務効率化を図りました。\n社内ツールや外部のサービスを用いて広告の実績データを取得し、管理・活用の仕組みを構築しました。',
-            'en': 'Configured various ad tracking tags for Google, Yahoo, Meta, and LINE using Google Tag Manager and JavaScript.\nAutomated tasks managed in spreadsheets and other tools to improve work efficiency.\nBuilt a system for collecting, managing, and utilizing ad performance data using in-house tools and external services.',
-            'zh-CN': '使用Google Tag Manager配置了Google、Yahoo、Meta、LINE等各种广告跟踪标签，并通过JavaScript进行设置。\n对在电子表格等工具中管理的任务进行了半自动化，以提高工作效率。\n利用内部工具和外部服务获取广告的实际数据，并建立了管理和活用的机制。',
-            'zh-TW': '使用Google Tag Manager配置了Google、Yahoo、Meta、LINE等各種廣告追蹤標籤，並透過JavaScript進行設定。\n對在電子表格等工具中管理的作業進行半自動化，以提升工作效率。\n利用內部工具和外部服務獲取廣告的實績數據，並建立了管理與活用的機制。',
-            'ko': 'Google Tag Manager를 사용하여 Google, Yahoo, Meta, LINE 등의 다양한 광고 추적 태그를 JavaScript로 설정했습니다.\n스프레드시트 등에서 관리하는 업무를 반자동화하여 업무 효율성을 향상시켰습니다.\n사내 도구와 외부 서비스를 활용하여 광고 실적 데이터를 수집하고, 이를 관리·활용하는 시스템을 구축했습니다.',
+            'ja': dedent(`
+              # Web広告計測タグ設定
+              タグマネージャーのGoogle Tag Managerを用いて、Google、Yahoo、Meta、LINEなどの様々な広告計測タグの設定を行いました。
+              使用言語はJavaScript。
+
+              # GASを用いた小規模な業務効率化
+              スプレッドシートなどで管理して行っている業務などを半自動化させ業務効率化を図りました。
+              残業予想時間が一定以上になるとSlackで警告を行うシステムを開発。
+
+              # Web広告計測データ管理・活用
+              社内ツールや外部のサービスを用いて広告の実績データを取得し、管理・活用の仕組みを構築。
+              主にBigQuery上にデータを集約して、そこから広告運用に活用していました。
+            `),
+            'en': dedent(`
+              # Web Advertising Measurement Tag Setup
+              Configured various advertising measurement tags such as Google, Yahoo, Meta, and LINE using Google Tag Manager.
+              JavaScript was used for implementation.
+
+              # Small-scale Workflow Automation with GAS
+              Automated and optimized tasks managed through spreadsheets and other tools by using Google Apps Script.
+              Developed a Slack alert system that sends warnings when predicted overtime exceeds a certain threshold.
+
+              # Web Advertising Data Management and Utilization
+              Built a system to retrieve, manage, and utilize advertising performance data using internal tools and external services.
+              Consolidated data mainly in BigQuery and used it to support advertising operations.
+            `),
+            'zh-CN': dedent(`
+              ■ Web广告监测标签设置
+              使用 Google Tag Manager配置了Google、Yahoo、Meta、LINE等各种广告监测标签。
+              使用的语言为JavaScript。
+
+              ■ 使用GAS的小规模业务自动化
+              通过Google Apps Script对利用电子表格等管理的业务进行半自动化，提高工作效率。
+              开发了一个系统，当预计加班时间超过一定阈值时，会在Slack中发出警告。
+
+              ■ Web 广告数据管理与利用
+              利用公司内部工具和外部服务获取广告效果数据，并构建数据管理与应用机制。
+              主要将数据汇总至BigQuery，并用于广告运营。
+            `),
+            'zh-TW': dedent(`
+              ■ Web廣告成效標籤設定
+              使用Google Tag Manager設定Google、Yahoo、Meta、LINE等各種廣告成效追蹤標籤。
+              使用的語言為JavaScript。
+
+              ■ 使用GAS進行小規模業務效率化
+              透過Google Apps Script將以試算表等方式管理的業務半自動化，提高作業效率。
+              開發了預估加班時間超過一定門檻時會在Slack發出警告的系統。
+
+              ■ Web 廣告數據管理與活用
+              使用公司內部工具及外部服務取得廣告實績數據，並建立管理與活用的機制。
+              主要將數據集中於BigQuery，並用於廣告營運。
+            `),
+            'ko': dedent(`
+              # 웹 광고 측정 태그 설정
+              Google Tag Manager를 사용하여 Google, Yahoo, Meta, LINE 등의 다양한 광고 측정 태그를 설정했습니다.
+              사용 언어는 JavaScript.
+
+              # GAS를 활용한 소규모 업무 효율화
+              스프레드시트 등으로 관리하던 업무를 Google Apps Script로 반자동화하여 업무 효율을 높였습니다.
+              예상 잔업 시간이 일정 기준을 초과하면 Slack으로 경고를 보내는 시스템을 개발.
+
+              # 웹 광고 데이터 관리 및 활용
+              사내 도구와 외부 서비스를 사용해 광고 실적 데이터를 수집하고, 관리·활용 체계를 구축.
+              주로 BigQuery에 데이터를 집약하여 광고 운영에 활용했습니다.
+            `),
           },
           skills: [
             'JavaScript',
@@ -287,11 +452,31 @@ export const biography: BiographyDocument = {
             'ko': 'AI 영업 봇 개발 업무',
           },
           detail: {
-            'ja': 'インターネット広告代理店におけるAI営業Slackボットの開発・保守業務。\nプロダクトマネージャーが作成した要件定義書を基にデザインドキュメントの作成、コーディング、レビュー、QA、デプロイを行いました。\n開発手法はアジャイルです。',
-            'en': 'Developed and maintained an AI sales Slack bot for an online advertising agency.\nCreated design documents, performed coding, code reviews, QA, and deployment based on the requirement specifications provided by the product manager.\nUsed an agile development methodology.',
-            'zh-CN': '在互联网广告代理公司中开发和维护AI销售Slack机器人。\n根据产品经理编写的需求文档进行设计文档编写、编码、代码审查、质量保证和部署。\n开发方法采用敏捷模式。',
-            'zh-TW': '在網路廣告代理公司中負責開發與維護AI業務用Slack機器人。\n根據產品經理撰寫的需求說明書進行設計文件撰寫、程式編寫、代碼審查、QA與部署。\n採用了敏捷式開發方法。',
-            'ko': '인터넷 광고 대행사에서 AI 영업 Slack 봇의 개발 및 유지보수를 수행함.\n프로덕트 매니저가 작성한 요구사항 명세서를 바탕으로 설계 문서 작성, 코딩, 코드 리뷰, QA, 배포를 진행함.\n개발 방식은 애자일 방법론을 사용함.',
+            'ja': dedent(`
+              インターネット広告代理店におけるAI営業Slackボットの開発・保守業務。
+              プロダクトマネージャーが作成した要件定義書を基にデザインドキュメントの作成、コーディング、レビュー、QA、デプロイを行う。
+              開発手法はスクラムです。
+            `),
+            'en': dedent(`
+              Responsible for developing and maintaining an AI sales Slack bot for an online advertising agency.
+              Based on the requirements defined by the product manager, I created design documents, implemented code, conducted reviews, performed QA, and handled deployment.
+              The development methodology used was Scrum.
+            `),
+            'zh-CN': dedent(`
+              在互联网广告代理公司负责AI销售Slack机器人的开发与维护工作。
+              根据产品经理编写的需求文档，进行设计文档撰写、编码、代码审查、QA 以及部署。
+              开发方法采用Scrum。
+            `),
+            'zh-TW': dedent(`
+              在網路廣告代理公司負責AI銷售Slack機器人的開發與維護工作。
+              根據產品經理撰寫的需求定義文件，負責設計文件撰寫、程式開發、程式碼審查、QA 與部署。
+              開發方法採用Scrum。
+            `),
+            'ko': dedent(`
+              인터넷 광고 대행사에서 AI 영업 Slack 봇의 개발 및 유지보수를 담당.
+              프로덕트 매니저가 작성한 요구사항 정의서를 기반으로 디자인 문서 작성, 코딩, 리뷰, QA, 배포를 수행했습니다.
+              개발 방식은 스크럼을 사용했습니다.
+            `),
           },
           skills: [
             'TypeScript',
@@ -336,11 +521,46 @@ export const biography: BiographyDocument = {
             'ko': '랜딩 페이지 제작 및 광고 측정 업무',
           },
           detail: {
-            'ja': 'ランディングページの作成と計測を業務委託として対応。\nコードのバージョン管理が行えていないプロジェクトにはGitを導入。\n既存のGitHubリポジトリの運用ルールの制定、GitHub Actionsを用いた自動化の設定。ローカル環境での開発のためにDockerの導入。',
-            'en': 'Handled the creation and tracking of landing pages as a subcontracted task.\nIntroduced Git for projects that lacked version control.\nEstablished operation rules for existing GitHub repositories and set up automation using GitHub Actions. Introduced Docker for local development environments.',
-            'zh-CN': '以外包形式负责落地页的制作与分析。\n为未进行代码版本管理的项目引入了Git。\n制定了现有GitHub仓库的运维规则，并通过GitHub Actions设置了自动化流程。为本地开发环境引入了Docker。',
-            'zh-TW': '以外包形式負責登陸頁的製作與成效追蹤。\n為沒有進行版本控制的專案導入Git。\n制定現有GitHub儲存庫的管理規範，並使用GitHub Actions設置自動化流程。為了本地開發導入了Docker。',
-            'ko': '랜딩 페이지 제작 및 측정을 외주로 수행함.\n버전 관리가 되지 않은 프로젝트에는 Git을 도입.\n기존 GitHub 저장소의 운영 규칙을 수립하고, GitHub Actions를 활용한 자동화를 설정함. 로컬 개발 환경을 위해 Docker를 도입함.',
+            'ja': dedent(`
+              業務委託として参画。
+              ランディングページの新規作成、既存のコーポレートサイト改修を対応。
+              既存のGitHub運用ルールの見直し。
+              バージョン管理を行っていないプロジェクトにGitHubを導入。
+              GitHub Actions を用いた本番反映自動化の仕組みを構築。
+              Docker などを用いたローカル開発環境の構築。
+            `),
+            'en': dedent(`
+              Participated as an independent contractor.
+              Responsible for creating new landing pages and updating existing corporate websites.
+              Reviewed and improved the existing GitHub operational rules.
+              Introduced GitHub to projects that previously had no version control.
+              Built an automated deployment workflow using GitHub Actions.
+              Set up local development environments using tools such as Docker.
+            `),
+            'zh-CN': dedent(`
+              以业务委托的形式参与项目。
+              负责新建落地页以及改修现有的企业网站。
+              对现有的GitHub运营规则进行审查与改进。
+              在未进行版本管理的项目中导入GitHub。
+              使用GitHub Actions构建自动化部署到生产环境的机制。
+              使用Docker等工具搭建本地开发环境。
+            `),
+            'zh-TW': dedent(`
+              以業務委託的形式參與。
+              負責新建登陸頁面以及改修既有的企業網站。
+              重新檢視並改善現有的GitHub運作規範。
+              在未使用版本管理的專案中導入GitHub。
+              使用GitHub Actions建立自動化部署至正式環境的流程。
+              使用Docker等工具建置本地開發環境。
+            `),
+            'ko': dedent(`
+              업무 위탁 형태로 프로젝트에 참여.
+              랜딩 페이지 신규 제작과 기존 기업 웹사이트 개편을 담당.
+              기존 GitHub 운영 규칙을 재검토하고 개선.
+              버전 관리를 하지 않던 프로젝트에 GitHub를 도입.
+              GitHub Actions를 사용하여 프로덕션 반영 자동화 시스템을 구축.
+              Docker 등을 활용해 로컬 개발 환경을 구축.
+            `),
           },
           skills: [
             'HTML5',

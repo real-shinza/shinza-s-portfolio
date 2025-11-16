@@ -18,9 +18,9 @@ export default ({ params }: { params: { id: string } }) => {
           className={styles.image}
           src={entry.image}
           alt='work image'
-          width={384}
-          height={384}
-          style={{ width: '100%', height: 'auto', maxWidth: '384px' }}
+          width={256}
+          height={256}
+          style={{ width: '100%', height: 'auto', maxWidth: '256px' }}
         />
         <SubContent subtitle={work.subtitle.description}>
           <div className={styles.description}>

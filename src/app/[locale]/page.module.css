@@ -10,11 +10,11 @@
 
 .profile_about {
   margin: auto 20px;
-  max-width: 420px;
+  width: 350px;
 }
 
 .main_name {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   color: #3d3d3d;
 }
@@ -46,4 +46,10 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px 30px;
+}
+
+@media (max-width: 768px) {
+  .social_media {
+    margin: 15px 45px;
+  }
 }
