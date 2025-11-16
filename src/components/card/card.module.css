@@ -13,6 +13,7 @@
 }
 
 .title {
+  margin: 25px 60px;
   font-size: 50px;
   color: #3d3d3d;
 }
@@ -22,6 +23,11 @@
 }
 
 @media (max-width: 768px) {
+  .title {
+    margin: 25px 0px;
+    font-size: 40px;
+  }
+
   .content {
     margin: 10px auto;
   }

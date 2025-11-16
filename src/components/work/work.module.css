@@ -6,20 +6,12 @@
   gap: 40px;
 }
 
-@media (max-width: 768px) {
-  .works {
-    margin: 10px 0;
-  }
-}
-
 .work {
-  width: 180px;
-  vertical-align: top;
-  transition: transform .2s ease;
+  flex: 0;
 }
 
 .scaleWrap {
-  display: inline-block;
+  display: block;
   border-bottom: 1px solid #bbbbbb;
   transition: transform 0.2s ease;
 }

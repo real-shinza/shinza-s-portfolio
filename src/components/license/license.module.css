@@ -35,7 +35,12 @@
     justify-content: flex-start;
   }
 
-  .date, .name {
+  .date {
+    width: auto;
+    font-size: 15px;
+  }
+
+  .name {
     width: auto;
   }
 }
