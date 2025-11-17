@@ -6,18 +6,18 @@ import styles from './work.module.css';
 
 export const Work = (args: { entries: WorkEntry[] }) => {
   return (
-    <div className={styles.works}>
-      {args.entries.map((entry, index) => (
-        <div className={styles.work} id={entry.id} key={index}>
-          <div className={styles.scaleWrap}>
-            <Link className={styles.link} href={`/work/${entry.id}`}>
-              <div>
-                <div className={styles.image}>
+    <div className={styles.worksWrapper}>
+      <div className={styles.works}>
+        {args.entries.map((entry, index) => (
+          <div className={styles.work} id={entry.id} key={index}>
+            <div className={styles.scaleWrap}>
+              <Link className={styles.link} href={`/work/${entry.id}`}>
+                <div className={styles.imageWrapper}>
                   <Image
                     src={entry.image}
                     alt='work image'
-                    width={180}
-                    height={180}
+                    fill
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
                 <h3 className={styles.name}>
@@ -26,11 +26,11 @@ export const Work = (args: { entries: WorkEntry[] }) => {
                 <div className={styles.description}>
                   {GetLocaleString(entry.description_short)}
                 </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

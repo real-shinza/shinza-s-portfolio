@@ -171,6 +171,63 @@ export const work: WorkDocument = {
       ],
     },
     {
+      id: 'zenn',
+      name: {
+        'ja': 'Zenn 技術記事',
+        'en': 'Zenn technical article',
+        'zh-CN': 'Zenn 技术文章',
+        'zh-TW': 'Zenn 技術文章',
+        'ko': 'Zenn 기술 기사',
+      },
+      image: '/works/zenn.jpg',
+      description_short: {
+        'ja': 'Zenn 技術記事',
+        'en': 'Zenn technical article',
+        'zh-CN': 'Zenn 技术文章',
+        'zh-TW': 'Zenn 技術文章',
+        'ko': 'Zenn 기술 기사',
+      },
+      description_long: {
+        'ja': dedent(`
+          技術情報コミュニティにて技術記事を投稿。
+          日本のサービスのため日本語のみ対応。
+        `),
+        'en': dedent(`
+          Posting technical articles on a technology information community.
+          Available only in Japanese as it is a Japan-based service.
+        `),
+        'zh-CN': dedent(`
+          在技术信息社区发布技术文章。
+          由于是日本的服务，仅支持日语。
+        `),
+        'zh-TW': dedent(`
+          在技術資訊社群中發布技術文章。
+          由於是日本的服務，因此僅支援日文。
+        `),
+        'ko': dedent(`
+          기술 정보 커뮤니티에 기술 기사를 게시.
+          일본 서비스이므로 일본어만 지원.
+        `),
+      },
+      skills: [
+        'GitHub',
+        'Visual Studio Code',
+        'Zenn CLI',
+      ],
+      links: [
+        {
+          name: 'Zenn',
+          link: 'https://zenn.dev/kainari',
+          color_code: '#3ea8ff',
+        },
+        {
+          name: 'GitHub',
+          link: 'https://github.com/real-shinza/zenn',
+          color_code: '#181717',
+        },
+      ],
+    },
+    {
       id: 'towa-2d',
       name: {
         'ja': 'とわ 2D',
@@ -245,6 +302,70 @@ export const work: WorkDocument = {
       ],
     },
     {
+      id: 'clicker-game',
+      name: {
+        'ja': 'クリッカーゲーム',
+        'en': 'Clicker game',
+        'zh-CN': '放置点击游戏',
+        'zh-TW': '放置點擊遊戲',
+        'ko': '클리커 게임',
+      },
+      image: '/works/clicker-game.jpg',
+      description_short: {
+        'ja': 'タコをクリックするだけのミニゲーム',
+        'en': 'A mini-game where you simply click on octopuses',
+        'zh-CN': '仅需点击章鱼的迷你游戏',
+        'zh-TW': '僅需點擊章魚的迷你遊戲',
+        'ko': '문어를 클릭하기만 하는 미니 게임',
+      },
+      description_long: {
+        'ja': dedent(`
+          タコをクリックするだけのミニゲーム。
+          学生時代に学んだC++とDirectXの復習を目的として制作。
+          DirectX11を用いて描画処理などの基盤を構築。
+          タコのドット絵はAsepriteで制作。
+        `),
+        'en': dedent(`
+          A simple mini-game where the player clicks on an octopus.
+          Created to review C++ and DirectX skills learned during my student years.
+          Built the rendering framework and related systems using DirectX11.
+          The octopus pixel art was created in Aseprite.
+        `),
+        'zh-CN': dedent(`
+          只需点击章鱼的迷你游戏。
+          以复习学生时期学习的C++和DirectX为目的而制作。
+          使用DirectX11构建绘图处理等基础系统。
+          章鱼的像素画由Aseprite制作。
+        `),
+        'zh-TW': dedent(`
+          僅需點擊章魚的迷你遊戲。
+          以複習學生時期所學的C++和DirectX為目的而製作。
+          使用DirectX11構築繪圖處理等基礎系統。
+          章魚的像素圖由Aseprite製作。
+        `),
+        'ko': dedent(`
+          문어를 클릭하기만 하는 미니 게임.
+          학생 시절 배운 C++와 DirectX를 복습하기 위해 제작.
+          DirectX11을 사용해 렌더링 처리 등의 기반을 구축.
+          문어 픽셀 아트는 Aseprite로 제작.
+        `),
+      },
+      skills: [
+        'C++',
+        'DirectX11',
+        'GitHub',
+        'Visual Studio 2022',
+        'Aseprite',
+      ],
+      links: [
+        {
+          name: 'GitHub',
+          link: 'https://github.com/real-shinza/clicker-game',
+          color_code: '#181717',
+        },
+      ],
+    },
+    {
       id: 'discord-bot',
       name: {
         'ja': 'Discordボット',
@@ -284,7 +405,7 @@ export const work: WorkDocument = {
           開發Discord機器人。
           搭載語音朗讀、自動分配角色、生日祝福、地震速報等功能。
           機器人在AWS EC2上執行，語音朗讀功能透過在Docker中啟動VOICEVOX實作。
-          基於安全性與個人資料保護的考量，原始碼不公開。
+          基於安全性和個人資料保護的考量，原始碼不公開。
         `),
         'ko': dedent(`
           Discord 봇을 개발.
