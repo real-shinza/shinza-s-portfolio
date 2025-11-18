@@ -31,15 +31,17 @@ export default ({ params }: { params: { id: string } }) => {
           <SkillTag skills={entry.skills} />
         </SubContent>
         <SubContent subtitle={work.subtitle.link} isHidden={!entry.links}>
-          {entry.links && entry.links.map((link, index) => (
-            <div className={styles.link_button} key={index}>
-              <Link className='external-link' href={link.link} target='_blank'>
-                <button className={styles.button} type='button' style={{ backgroundColor: link.color_code }}>
-                  {link.name}
-                </button>
-              </Link>
-            </div>
-          ))}
+          <div className={styles.buttons}>
+            {entry.links && entry.links.map((link, index) => (
+              <div key={index}>
+                <Link className='external-link' href={link.link} target='_blank'>
+                  <button className={styles.button} type='button' style={{ backgroundColor: link.color_code }}>
+                    {link.name}
+                  </button>
+                </Link>
+              </div>
+            ))}
+          </div>
         </SubContent>
       </Card>
     </main>

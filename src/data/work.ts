@@ -202,7 +202,7 @@ export const work: WorkDocument = {
         `),
         'zh-TW': dedent(`
           在技術資訊社群中發布技術文章。
-          由於是日本的服務，因此僅支援日文。
+          由於是日本的服務，僅支援日文。
         `),
         'ko': dedent(`
           기술 정보 커뮤니티에 기술 기사를 게시.
@@ -285,6 +285,7 @@ export const work: WorkDocument = {
       skills: [
         'C#',
         'Unity 2022',
+        'Localization Package',
         'GitHub',
         'Visual Studio 2022',
       ],
@@ -473,6 +474,7 @@ export const work: WorkDocument = {
       skills: [
         'C#',
         'Unity 6',
+        'Localization Package',
         'Odin Inspector and Serializer',
         'Easy Save 3',
         'xNode',
@@ -533,6 +535,7 @@ export const work: WorkDocument = {
       skills: [
         'C#',
         'Unity 6',
+        'Localization Package',
         'Odin Inspector and Serializer',
         'Easy Save 3',
         'xNode',

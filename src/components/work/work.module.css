@@ -1,22 +1,17 @@
 .works {
   margin: 10px 30px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 182px);
+  justify-content: space-evenly;
   gap: 40px;
 }
 
 .work {
-  flex: 0;
-}
-
-.scaleWrap {
-  display: block;
   border-bottom: 1px solid #bbbbbb;
   transition: transform 0.2s ease;
 }
 
-.scaleWrap:hover {
+.work:hover {
   transform: scale(1.05);
 }
 
@@ -47,7 +42,8 @@
 
 @media (max-width: 768px) {
   .works {
-    margin: 10px;
+    margin: 10px 20px;
+    grid-template-columns: repeat(auto-fill, 102px);
     gap: 20px;
   }
 
