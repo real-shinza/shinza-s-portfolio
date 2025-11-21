@@ -2,7 +2,7 @@ import { LocaleStrings } from '.';
 
 export type SkillEntry = {
   name: string,
-  exp: Number,
+  level: number,
 };
 
 export type SkillSection = {

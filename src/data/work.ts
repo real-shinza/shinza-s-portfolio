@@ -213,6 +213,7 @@ export const work: WorkDocument = {
         'GitHub',
         'Visual Studio Code',
         'Zenn CLI',
+        'Google Analytics',
       ],
       links: [
         {

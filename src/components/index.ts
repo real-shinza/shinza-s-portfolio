@@ -7,4 +7,5 @@ export { ProfileImage } from './profile/profile-image';
 export { SocialMedia } from './profile/social-media';
 export { SkillTag } from './skill/skill-tag';
 export { Skill } from './skill/skill';
+export { StarLevel } from './skill/star-level';
 export { Work } from './work/work';

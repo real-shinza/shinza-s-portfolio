@@ -1,0 +1,17 @@
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .star {
+    width: 10px;
+    height: 10px;
+  }
+}

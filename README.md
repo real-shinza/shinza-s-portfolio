@@ -7,6 +7,7 @@
 
 # 使用素材
 [Simple Icons](https://simpleicons.org/)  
+[Indie Icons](https://www.visiwig.com/icons/)  
 [FreeSozai](https://freesozai.jp/)  
 
 # コマンド

@@ -21,51 +21,51 @@ export const skill: SkillDocument = {
       entries: [
         {
           name: 'C',
-          exp: 5,
+          level: 4,
         },
         {
           name: 'C++',
-          exp: 4,
+          level: 4,
         },
         {
           name: 'C#',
-          exp: 4,
+          level: 5,
         },
         {
           name: 'JavaScript',
-          exp: 3,
+          level: 5,
         },
         {
           name: 'TypeScript',
-          exp: 2,
+          level: 5,
         },
         {
           name: 'Java',
-          exp: 2,
+          level: 3,
         },
         {
           name: 'Python3',
-          exp: 2,
+          level: 3,
         },
         {
           name: 'Dart',
-          exp: 1,
+          level: 1,
         },
         {
           name: 'HTML5',
-          exp: 2,
+          level: 4,
         },
         {
           name: 'CSS3',
-          exp: 2,
+          level: 4,
         },
         {
           name: 'PHP',
-          exp: 1,
+          level: 1,
         },
         {
           name: 'SQL',
-          exp: 2,
+          level: 3,
         },
       ],
     },
@@ -80,35 +80,35 @@ export const skill: SkillDocument = {
       entries: [
         {
           name: 'DirectX9',
-          exp: 2,
+          level: 2,
         },
         {
-          name: 'DirectX12',
-          exp: 1,
+          name: 'DirectX11',
+          level: 2,
         },
         {
           name: 'Unity',
-          exp: 4,
+          level: 4,
         },
         {
           name: 'jQuery',
-          exp: 2,
+          level: 2,
         },
         {
           name: 'Node.js',
-          exp: 3,
+          level: 4,
         },
         {
           name: 'React',
-          exp: 2,
+          level: 4,
         },
         {
           name: 'Next.js',
-          exp: 2,
+          level: 4,
         },
         {
           name: 'Flutter',
-          exp: 1,
+          level: 1,
         },
       ],
     },
@@ -123,15 +123,15 @@ export const skill: SkillDocument = {
       entries: [
         {
           name: 'Git',
-          exp: 3,
+          level: 4,
         },
         {
           name: 'GitHub',
-          exp: 3,
+          level: 4,
         },
         {
           name: 'Docker',
-          exp: 1,
+          level: 3,
         },
       ],
     },
@@ -146,71 +146,71 @@ export const skill: SkillDocument = {
       entries: [
         {
           name: 'Google Apps Script',
-          exp: 3,
+          level: 5,
         },
         {
           name: 'Google Tag Manager',
-          exp: 2,
+          level: 5,
         },
         {
           name: 'Firebase Hosting',
-          exp: 1,
+          level: 3,
         },
         {
           name: 'Cloud Firestore',
-          exp: 1,
+          level: 2,
         },
         {
           name: 'Cloud Functions',
-          exp: 1,
+          level: 2,
         },
         {
           name: 'Cloud Storage',
-          exp: 1,
+          level: 2,
         },
         {
           name: 'BigQuery',
-          exp: 2,
+          level: 3,
         },
         {
           name: 'Google Analytics',
-          exp: 1,
+          level: 3,
         },
         {
           name: 'Vercel',
-          exp: 1,
+          level: 3,
         },
         {
           name: 'Amazon EC2',
-          exp: 1,
+          level: 2,
         },
         {
           name: 'Amazon ECS',
-          exp: 1,
+          level: 2,
         },
         {
           name: 'Amazon S3',
-          exp: 1,
+          level: 2,
         },
         {
           name: 'Amazon EventBridge',
-          exp: 1,
+          level: 1,
         },
         {
           name: 'Amazon CloudWatch',
-          exp: 1,
+          level: 1,
         },
         {
           name: 'AWS WAF',
-          exp: 1,
+          level: 1,
         },
         {
           name: 'AWS CDK',
-          exp: 1,
+          level: 2,
         },
         {
           name: 'WordPress',
-          exp: 1,
+          level: 2,
         },
       ],
     },
@@ -225,27 +225,27 @@ export const skill: SkillDocument = {
       entries: [
         {
           name: 'Slack',
-          exp: 3,
+          level: 4,
         },
         {
           name: 'Discord',
-          exp: 5,
+          level: 5,
         },
         {
           name: 'Notion',
-          exp: 2,
+          level: 3,
         },
         {
           name: 'Miro',
-          exp: 1,
+          level: 2,
         },
         {
           name: 'Figma',
-          exp: 1,
+          level: 1,
         },
         {
           name: 'ChatGPT',
-          exp: 2,
+          level: 3,
         },
       ],
     },
