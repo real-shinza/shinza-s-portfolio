@@ -1,7 +1,7 @@
 import { SkillDocument } from '../common/type';
 
 export const skill: SkillDocument = {
-  id : 'skill',
+  id: 'skill',
   title: {
     'ja': 'スキル',
     'en': 'Skill',
@@ -19,54 +19,18 @@ export const skill: SkillDocument = {
         'ko': '프로그래밍 언어',
       },
       entries: [
-        {
-          name: 'C',
-          level: 4,
-        },
-        {
-          name: 'C++',
-          level: 4,
-        },
-        {
-          name: 'C#',
-          level: 5,
-        },
-        {
-          name: 'JavaScript',
-          level: 5,
-        },
-        {
-          name: 'TypeScript',
-          level: 5,
-        },
-        {
-          name: 'Java',
-          level: 3,
-        },
-        {
-          name: 'Python3',
-          level: 3,
-        },
-        {
-          name: 'Dart',
-          level: 1,
-        },
-        {
-          name: 'HTML5',
-          level: 4,
-        },
-        {
-          name: 'CSS3',
-          level: 4,
-        },
-        {
-          name: 'PHP',
-          level: 1,
-        },
-        {
-          name: 'SQL',
-          level: 3,
-        },
+        { name: 'C',          level: 3 },
+        { name: 'C++',        level: 3 },
+        { name: 'C#',         level: 5 },
+        { name: 'JavaScript', level: 4 },
+        { name: 'TypeScript', level: 5 },
+        { name: 'Java',       level: 3 },
+        { name: 'Python3',    level: 3 },
+        { name: 'Dart',       level: 2 },
+        { name: 'HTML5',      level: 4 },
+        { name: 'CSS3',       level: 4 },
+        { name: 'PHP',        level: 1 },
+        { name: 'SQL',        level: 3 },
       ],
     },
     {
@@ -78,38 +42,16 @@ export const skill: SkillDocument = {
         'ko': '프레임워크',
       },
       entries: [
-        {
-          name: 'DirectX9',
-          level: 2,
-        },
-        {
-          name: 'DirectX11',
-          level: 2,
-        },
-        {
-          name: 'Unity',
-          level: 4,
-        },
-        {
-          name: 'jQuery',
-          level: 2,
-        },
-        {
-          name: 'Node.js',
-          level: 4,
-        },
-        {
-          name: 'React',
-          level: 4,
-        },
-        {
-          name: 'Next.js',
-          level: 4,
-        },
-        {
-          name: 'Flutter',
-          level: 1,
-        },
+        { name: 'DirectX9',   level: 2 },
+        { name: 'DirectX11',  level: 2 },
+        { name: 'Unity',      level: 4 },
+        { name: 'jQuery',     level: 2 },
+        { name: 'Node.js',    level: 4 },
+        { name: 'Express.js', level: 2 },
+        { name: 'FastAPI',    level: 2 },
+        { name: 'React',      level: 4 },
+        { name: 'Next.js',    level: 4 },
+        { name: 'Flutter',    level: 1 },
       ],
     },
     {
@@ -121,18 +63,22 @@ export const skill: SkillDocument = {
         'ko': '개발 지원 도구',
       },
       entries: [
-        {
-          name: 'Git',
-          level: 4,
-        },
-        {
-          name: 'GitHub',
-          level: 4,
-        },
-        {
-          name: 'Docker',
-          level: 3,
-        },
+        { name: 'Git',    level: 4 },
+        { name: 'GitHub', level: 4 },
+        { name: 'Docker', level: 3 },
+      ],
+    },
+    {
+      subtitle: {
+        'ja': 'データベース',
+        'en': 'Database',
+        'zh-CN': '数据库',
+        'zh-TW': '資料庫',
+        'ko': '데이터베이스',
+      },
+      entries: [
+        { name: 'MySQL',  level: 3 },
+        { name: 'SQLite', level: 2 },
       ],
     },
     {
@@ -144,74 +90,23 @@ export const skill: SkillDocument = {
         'ko': '클라우드 플랫폼',
       },
       entries: [
-        {
-          name: 'Google Apps Script',
-          level: 5,
-        },
-        {
-          name: 'Google Tag Manager',
-          level: 5,
-        },
-        {
-          name: 'Firebase Hosting',
-          level: 3,
-        },
-        {
-          name: 'Cloud Firestore',
-          level: 2,
-        },
-        {
-          name: 'Cloud Functions',
-          level: 2,
-        },
-        {
-          name: 'Cloud Storage',
-          level: 2,
-        },
-        {
-          name: 'BigQuery',
-          level: 3,
-        },
-        {
-          name: 'Google Analytics',
-          level: 3,
-        },
-        {
-          name: 'Vercel',
-          level: 3,
-        },
-        {
-          name: 'Amazon EC2',
-          level: 2,
-        },
-        {
-          name: 'Amazon ECS',
-          level: 2,
-        },
-        {
-          name: 'Amazon S3',
-          level: 2,
-        },
-        {
-          name: 'Amazon EventBridge',
-          level: 1,
-        },
-        {
-          name: 'Amazon CloudWatch',
-          level: 1,
-        },
-        {
-          name: 'AWS WAF',
-          level: 1,
-        },
-        {
-          name: 'AWS CDK',
-          level: 2,
-        },
-        {
-          name: 'WordPress',
-          level: 2,
-        },
+        { name: 'Google Apps Script', level: 5 },
+        { name: 'Google Tag Manager', level: 5 },
+        { name: 'Firebase Hosting',   level: 3 },
+        { name: 'Cloud Firestore',    level: 2 },
+        { name: 'Cloud Functions',    level: 2 },
+        { name: 'Cloud Storage',      level: 2 },
+        { name: 'BigQuery',           level: 3 },
+        { name: 'Google Analytics',   level: 3 },
+        { name: 'Vercel',             level: 3 },
+        { name: 'Amazon EC2',         level: 2 },
+        { name: 'Amazon ECS',         level: 2 },
+        { name: 'Amazon S3',          level: 2 },
+        { name: 'Amazon EventBridge', level: 1 },
+        { name: 'Amazon CloudWatch',  level: 1 },
+        { name: 'AWS WAF',            level: 1 },
+        { name: 'AWS CDK',            level: 2 },
+        { name: 'WordPress',          level: 2 },
       ],
     },
     {
@@ -223,30 +118,15 @@ export const skill: SkillDocument = {
         'ko': '기타 도구',
       },
       entries: [
-        {
-          name: 'Slack',
-          level: 4,
-        },
-        {
-          name: 'Discord',
-          level: 5,
-        },
-        {
-          name: 'Notion',
-          level: 3,
-        },
-        {
-          name: 'Miro',
-          level: 2,
-        },
-        {
-          name: 'Figma',
-          level: 1,
-        },
-        {
-          name: 'ChatGPT',
-          level: 3,
-        },
+        { name: 'Slack',          level: 4 },
+        { name: 'Teams',          level: 2 },
+        { name: 'Discord',        level: 5 },
+        { name: 'Notion',         level: 3 },
+        { name: 'Miro',           level: 2 },
+        { name: 'Figma',          level: 1 },
+        { name: 'Google Sheets',  level: 4 },
+        { name: 'Excel',          level: 2 },
+        { name: 'ChatGPT',        level: 3 },
       ],
     },
   ],

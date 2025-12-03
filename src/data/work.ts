@@ -419,6 +419,8 @@ export const work: WorkDocument = {
       skills: [
         'TypeScript',
         'discord.js',
+        'TypeORM',
+        'SQLite',
         'VOICEVOX',
         'ESLint',
         'GitHub',
