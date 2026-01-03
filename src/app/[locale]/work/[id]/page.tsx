@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Card, SubContent, SkillTag } from '../../../../components';
+import { LinkButton, Card, SubContent, SkillTag } from '../../../../components';
 import { work } from '../../../../data';
 import { GetLocaleString } from '../../../../lib';
 import styles from './page.module.css';
@@ -33,13 +33,12 @@ export default ({ params }: { params: { id: string } }) => {
         <SubContent subtitle={work.subtitle.link} isHidden={!entry.links}>
           <div className={styles.buttons}>
             {entry.links && entry.links.map((link, index) => (
-              <div key={index}>
-                <Link className='external-link' href={link.link} target='_blank'>
-                  <button className={styles.button} type='button' style={{ backgroundColor: link.color_code }}>
-                    {link.name}
-                  </button>
-                </Link>
-              </div>
+              <LinkButton
+                key={index}
+                name={link.name}
+                link={link.link}
+                color_code={link.color_code}
+              />
             ))}
           </div>
         </SubContent>

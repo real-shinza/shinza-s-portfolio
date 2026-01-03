@@ -420,6 +420,7 @@ export const work: WorkDocument = {
         'TypeScript',
         'discord.js',
         'TypeORM',
+        'Jest',
         'SQLite',
         'VOICEVOX',
         'ESLint',

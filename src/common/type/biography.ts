@@ -6,6 +6,10 @@ export type BiographyEntry = {
   name: LocaleStrings,
   detail: LocaleStrings,
   skills?: string[],
+  link?: {
+    name: string,
+    link: string,
+  },
 };
 
 export type BiographySection = {
@@ -20,6 +24,7 @@ export type BiographyDocument = {
     period: LocaleStrings,
     detail: LocaleStrings,
     skill: LocaleStrings,
+    link: LocaleStrings,
   },
   sections: BiographySection[],
 };

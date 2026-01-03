@@ -1,6 +1,6 @@
 'use client';
 import { notFound } from 'next/navigation';
-import { Card, SubContent, SkillTag } from '../../../../components';
+import { LinkButton, Card, SubContent, SkillTag } from '../../../../components';
 import { biography } from '../../../../data';
 import { GetLocaleString } from '../../../../lib';
 import styles from './page.module.css';
@@ -25,7 +25,16 @@ export default ({ params }: { params: { id: string } }) => {
         <SubContent subtitle={biography.subtitle.skill} isHidden={!entry.skills}>
           <SkillTag skills={entry.skills} />
         </SubContent>
+        <SubContent subtitle={biography.subtitle.link} isHidden={!entry.link}>
+          {entry.link && (
+            <LinkButton
+              name={entry.link.name}
+              link={entry.link.link}
+              color_code={'#5e5e5e'}
+            />
+          )}
+        </SubContent>
       </Card>
-    </main>
+    </main >
   );
 };

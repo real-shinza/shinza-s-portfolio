@@ -32,6 +32,13 @@ export const biography: BiographyDocument = {
       'zh-TW': '技能',
       'ko': '스킬',
     },
+    link: {
+      'ja': 'リンク',
+      'en': 'Link',
+      'zh-CN': '链接',
+      'zh-TW': '連結',
+      'ko': '링크',
+    },
   },
   sections: [
     {
@@ -74,6 +81,10 @@ export const biography: BiographyDocument = {
             'ko': dedent(`
               공업 코스에서 용접, 선반, 제도, 프로그래밍 등을 학습.
             `),
+          },
+          link: {
+            name: 'cms1.ishikawa-c.ed.jp',
+            link: 'https://cms1.ishikawa-c.ed.jp/hokurh/',
           },
         },
         {
@@ -128,6 +139,10 @@ export const biography: BiographyDocument = {
             'Git',
             'GitHub',
           ],
+          link: {
+            name: 'ha.athuman.com',
+            link: 'https://ha.athuman.com/kyoto/',
+          },
         },
         {
           id: 'tokyo-online-university',
@@ -139,11 +154,11 @@ export const biography: BiographyDocument = {
             'ko': '2022년 4월 ~ 현재',
           },
           name: {
-            'ja': '東京通信大学 情報マネジメント学部',
-            'en': 'Faculty of Information and Management, Tokyo Online University',
-            'zh-CN': '东京通信大学 信息管理学部',
-            'zh-TW': '東京通信大學 資訊管理學部',
-            'ko': '도쿄통신대학 정보매니지먼트학부',
+            'ja': '東京通信大学 情報マネジメント学部 情報マネジメント学科',
+            'en': 'Department of Information and Management, Faculty of Information and Management, Tokyo Online University',
+            'zh-CN': '东京通信大学 信息管理学部 信息管理学科',
+            'zh-TW': '東京通信大學 資訊管理學部 資訊管理學科',
+            'ko': '도쿄통신대학 정보매니지먼트학부 정보매니지먼트학과',
           },
           detail: {
             'ja': dedent(`
@@ -176,6 +191,47 @@ export const biography: BiographyDocument = {
             'Java',
             'Python3',
           ],
+          link: {
+            name: 'internet.ac.jp',
+            link: 'https://www.internet.ac.jp/',
+          },
+        },
+        {
+          id: 'national-taiwan-normal-university',
+          period: {
+            'ja': '2025年3月 ~ 2025年4月',
+            'en': 'Mar. 2025 ~ Apr. 2025',
+            'zh-CN': '2025年3月 ~ 2025年4月',
+            'zh-TW': '2025年3月 ~ 2025年4月',
+            'ko': '2025년 3월 ~ 2025년 4월',
+          },
+          name: {
+            'ja': '国立台湾師範大学 国語教学センター',
+            'en': 'Mandarin Training Center, National Taiwan Normal University',
+            'zh-CN': '国立台湾师范大学 国语教学中心',
+            'zh-TW': '國立臺灣師範大學 國語教學中心',
+            'ko': '국립대만사범대학 중국어교육원',
+          },detail: {
+            'ja': dedent(`
+              台湾台北市で中国語を学ぶ。
+            `),
+            'en': dedent(`
+              Learning Chinese in Taipei, Taiwan.
+            `),
+            'zh-CN': dedent(`
+              在台湾台北市学习中文。
+            `),
+            'zh-TW': dedent(`
+              在臺灣臺北市學習中文。
+            `),
+            'ko': dedent(`
+              대만 타이베이시에서 중국어를 배우기.
+            `),
+          },
+          link: {
+            name: 'mtc.ntnu.edu.tw',
+            link: 'https://mtc.ntnu.edu.tw/',
+          },
         },
       ],
     },

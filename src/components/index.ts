@@ -1,4 +1,5 @@
 export { Biography } from './biography/biography';
+export { LinkButton } from './button/link-button';
 export { Card } from './card/card';
 export { SubContent } from './card/sub-content';
 export { Header } from './header/header';
