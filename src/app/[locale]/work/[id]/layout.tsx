@@ -15,11 +15,11 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     keywords: '新佐,ポートフォリオ,エンジニア',
     icons: [{ rel: 'icon', url: '/icons/favicon.ico' }],
     openGraph: {
-      type: 'website',
+      type: 'article',
       description: `新佐のポートフォリオ - ${entry.name.ja}`,
       siteName: 'Shinza\'s Portfolio',
       title: `Shinza\'s Portfolio - ${entry.name.ja}`,
-      url: `https://shinza-s-portfolio.vercel.app/work/${entry.id}`,
+      url: `https://shinza-s-portfolio-v1.vercel.app/work/${entry.id}`,
       images: 'https://shinza-s-portfolio.vercel.app/works/shinza-s-portfolio.jpg',
       locale: 'ja_JP',
     },

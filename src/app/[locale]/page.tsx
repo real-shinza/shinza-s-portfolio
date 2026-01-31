@@ -16,7 +16,7 @@ import {
   skill,
   work,
 } from '../../data';
-import { GetLocaleString, GetLocaleNanes } from '../../lib';
+import { GetLocaleString, GetLocaleNames } from '../../lib';
 import styles from './page.module.css';
 
 export default () => {
@@ -28,9 +28,9 @@ export default () => {
           <div className={styles.profile_about}>
             <div className={styles.name}>
               <div className={styles.main_name}>
-                {GetLocaleNanes(profile.name).main}
+                {GetLocaleNames(profile.name).main}
               </div>
-              {GetLocaleNanes(profile.name).sub.map((name, index) => (
+              {GetLocaleNames(profile.name).sub.map((name, index) => (
                 <div className={styles.sub_name} key={index}>
                   {name}
                 </div>

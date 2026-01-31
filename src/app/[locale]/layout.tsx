@@ -17,7 +17,7 @@ export function metadata(): Metadata {
       description: '新佐のポートフォリオ - Top',
       siteName: 'Shinza\'s Portfolio',
       title: 'Shinza\'s Portfolio - Top',
-      url: 'https://shinza-s-portfolio.vercel.app/',
+      url: 'https://shinza-s-portfolio-v1.vercel.app/',
       images: 'https://shinza-s-portfolio.vercel.app/works/shinza-s-portfolio.jpg',
       locale: 'ja_JP',
     },

@@ -1,2 +1,2 @@
 export { notoSans } from './font';
-export { GetLocaleString, GetLocaleNanes } from './locale';
+export { GetLocaleString, GetLocaleNames } from './locale';
